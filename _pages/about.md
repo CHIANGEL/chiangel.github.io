@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Jianghao is a senior student at Shanghai Jiao Tong University, China. He is now pursuing a Bachelor Degree at [APEX](http://apex.sjtu.edu.cn/) lab, advised by Prof. [Weinan Zhang](wnzhang.net). He is also the member of Zhiyuan Honors Program.
+Jianghao is a senior student at Shanghai Jiao Tong University, China. He is now pursuing a Bachelor Degree at [APEX](http://apex.sjtu.edu.cn/) lab, advised by Prof. [Weinan Zhang](http://wnzhang.net). He is also the member of Zhiyuan Honors Program.
 
 Jianghao's research interests include machine learning and data mining, especially, deep learning, reinforcement learning and their applications in real-world data mining scenarios including recommender system and information retrieval.
 
@@ -24,7 +24,7 @@ Internships
 ======
 - [Huawei Noah's Ark Lab](http://www.noahlab.com.hk/)
   - Research Intern, Search & Recommendation Group, supervised by Ruiming Tang.
-  - Shenzhen, China &ensp;&ensp; Jul. 2020 - Dec. 2020
+  - Shenzhen, China. &ensp; Jul. 2020 - Dec. 2020
 
 Honor and Awards
 ======
@@ -34,6 +34,4 @@ Honor and Awards
 
 More
 ======
-My hobbies mainly focus on:
-  - Animation
-  - Online games, especially Overwatch and PUBG 😁.
+My hobbies mainly focus on animation and online games, especially Overwatch and PUBG😁.
