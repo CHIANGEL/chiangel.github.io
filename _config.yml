@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Jianghao Lin (林江浩)"
-  avatar           : "profile.jpg"
-  bio              : "Senior student at Shanghai Jiao Tong University"
-  location         : "Location"
+  avatar           : "profile.png"
+  bio              : "Senior student at SJTU"
+  location         : "Shanghai, China"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
