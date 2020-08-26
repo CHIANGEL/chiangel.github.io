@@ -18,7 +18,7 @@ Education and Experience
 
 Publications
 ======
-- Yifan Zhou, **Jianghao Lin**, Shuai Wang, and Chong Zhang. Learning Ball-balancing Robot Through Deep Reinforcement Learning. The 1st International Conference on Computer, Control and Robotics. (***ICCCR 2021***). [Preprint Version](https://chiangel.github.io/files/publication/Learning_Ball-balancing_Robot_Through_Deep_Reinforcement_Learning.pdf). [code](https://github.com/CHIANGEL/Ballbot-with-DRL).
+- Yifan Zhou, **Jianghao Lin**, Shuai Wang, and Chong Zhang. Learning Ball-balancing Robot Through Deep Reinforcement Learning. The 1st International Conference on Computer, Control and Robotics. (**ICCCR 2021**, **Oral**). [Preprint Version](https://chiangel.github.io/files/publication/Learning_Ball-balancing_Robot_Through_Deep_Reinforcement_Learning.pdf). [Code](https://github.com/CHIANGEL/Ballbot-with-DRL).
 
 Internships
 ======
