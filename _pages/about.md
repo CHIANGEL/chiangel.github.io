@@ -38,4 +38,4 @@ More
 ======
 My hobbies mainly focus on animation and online games, especially Overwatch and PUBG😁.
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=400&t=tt&d=9X1Xbrcys07GUNz45Vpjgqiu2YILGSbcTQHy4gGi42w&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=xr9minmU_3UiAWyACZVtcQaM-nNh_GIOK4eE9pFCvi0&cl=ffffff&w=a"></script>
