@@ -12,6 +12,8 @@ I am a senior student at Shanghai Jiao Tong University, China. I am now pursuing
 
 My research interests include machine learning and data mining, especially, deep learning, reinforcement learning and their applications in real-world data mining scenarios including recommender system and information retrieval.
 
+Email: chiangel [DOT] ljh [AT] gmail [DOT] com
+
 Education and Experience
 ======
 - [09.2017-06.2021] B.S., Software Engineering, Shanghai Jiao Tong University, China.
@@ -35,3 +37,5 @@ Honor and Awards
 More
 ======
 My hobbies mainly focus on animation and online games, especially Overwatch and PUBG😁.
+
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=400&t=tt&d=9X1Xbrcys07GUNz45Vpjgqiu2YILGSbcTQHy4gGi42w&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
