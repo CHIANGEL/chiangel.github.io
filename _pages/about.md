@@ -30,6 +30,8 @@ Internships
 
 Honor and Awards
 ======
+- [2020.] Tang Lixin Scholarship ([certificate](https://chiangel.github.io/files/awards/2020-tang-lixin-scholarship.pdf)).
+- [2020.] National Scholarship
 - [2020.] Outstanding Winner (Top 0.14%), MCM/ICM 2020 ([certificate](https://chiangel.github.io/files/awards/2020-outstanding-winner-MCM.pdf)).
 - [2019.] National Second Prize, CUMCM 2019 ([certificate](https://chiangel.github.io/files/awards/2019-national-second-prize-CUMCM.jpg)).
 - [2018.] National Scholarship ([certificate](https://chiangel.github.io/files/awards/2018-national-scholarship.pdf)).
