@@ -20,11 +20,8 @@ Education and Experience
 
 Publications
 ======
-- Yifan Zhou, **Jianghao Lin**, Shuai Wang, and Chong Zhang. Learning Ball-balancing Robot Through Deep Reinforcement Learning. The 1st International Conference on Computer, Control and Robotics. (**ICCCR 2021**, **Oral**). [Paper](https://chiangel.github.io/files/publication/Learning_Ball-balancing_Robot_Through_Deep_Reinforcement_Learning.pdf). [Code](https://github.com/CHIANGEL/Ballbot-with-DRL).
 - Xinyi Dai, **Jianghao Lin**, Weinan Zhang, Shuai Li, Weiwen Liu, Ruiming Tang, Xiuqiang He, Jianye Hao, Jun Wang, Yong Yu. An Adversarial Imitation Click Model for Information Retrieval. (**WWW 2021**). [Paper](https://chiangel.github.io/files/publication/An_Adversarial_Imitation_Click_Model_for_Information_Retrieval.pdf). [Code](https://github.com/xydaisjtu/AICM).
-
-
-
+- Yifan Zhou, **Jianghao Lin**, Shuai Wang, and Chong Zhang. Learning Ball-balancing Robot Through Deep Reinforcement Learning. The 1st International Conference on Computer, Control and Robotics. (**ICCCR 2021**, **Oral**). [Paper](https://chiangel.github.io/files/publication/Learning_Ball-balancing_Robot_Through_Deep_Reinforcement_Learning.pdf). [Code](https://github.com/CHIANGEL/Ballbot-with-DRL).
 
 Internships
 ======
