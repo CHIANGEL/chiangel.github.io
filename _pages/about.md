@@ -10,15 +10,14 @@ redirect_from:
 
 I am a PhD student at Shanghai Jiao Tong University, China. I am now pursuing PhD Degree at [APEX](http://apex.sjtu.edu.cn/) lab, advised by Prof. [Weinan Zhang](http://wnzhang.net) and Prof. [Yong Yu](http://apex.sjtu.edu.cn/members/yyu). I am also the member of Zhiyuan Honors Program during my stage of undergraduate.
 
-<!-- My research interests include machine learning and data mining, especially, deep learning, reinforcement learning and their applications in real-world data mining scenarios including recommender system and information retrieval. -->
 My research interests mainly focus on information retrieval and recommender systems. I seek to model user behaviors, better fulfill the user's information needs in online services, and debias the system to prevent it to generate harmful or offensive content.
 
 Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
-- Jun., 2023. We release our [survey paper](https://arxiv.org/abs/2306.05817) and [awesome GitHub repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) for LLM-enhanced RS.
-- May, 2023. One paper was accepted by KDD 2023 (rate: 22.1%).
+- **Jun., 2023**. We release our [survey paper](https://arxiv.org/abs/2306.05817) and [awesome GitHub repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) for LLM-enhanced RS.
+- **May, 2023**. One paper was accepted by KDD 2023 (rate: 22.1%).
 
 Education
 ======
@@ -33,7 +32,7 @@ Selected Publications
 
 | **MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction**|
 | :------ |  
-| **Jianghao Lin**, Yanru Qu, Wei Guo, Xinyi Dai, Ruiming Tang, Yong Yu, Weinan Zhang. |  
+| **Jianghao Lin**, Yanru Qu, Xinyi Dai, Yong Yu, Weinan Zhang. |  
 | KDD 2023 (Full Paper). [Paper](). [Code]().
 
 | **Learning Ball-balancing Robot Through Deep Reinforcement Learning**|
@@ -58,5 +57,4 @@ More
 ======
 My hobbies mainly focus on animation and online games.
 
-<!-- <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=xr9minmU_3UiAWyACZVtcQaM-nNh_GIOK4eE9pFCvi0&cl=ffffff&w=a"></script> -->
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=xr9minmU_3UiAWyACZVtcQaM-nNh_GIOK4eE9pFCvi0'></script>
