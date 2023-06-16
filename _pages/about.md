@@ -12,12 +12,7 @@ I am a PhD student at Shanghai Jiao Tong University, China. I am now pursuing Ph
 
 My research interests mainly focus on information retrieval and recommender systems. I seek to model user behaviors, better fulfill the user's information needs in online services, and debias the system to prevent it to generate harmful or offensive content.
 
-Email: chiangel [DOT] ljh [AT] gmail [DOT] com
-
-Recent News
-======
-- **Jun., 2023**. We release our [survey paper](https://arxiv.org/abs/2306.05817) and [awesome GitHub repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) for LLM-enhanced RS.
-- **May, 2023**. One paper was accepted by KDD 2023 (rate: 22.1%).
+Email: chiangel [DOT] ljh [AT] gmail [DOT] co
 
 Education
 ======
