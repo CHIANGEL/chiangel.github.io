@@ -17,7 +17,7 @@ function add_nav_li(link, link_name, page_name, mode = 0) {
     new_nav.appendChild(a);
     document.getElementById("nav_ul").appendChild(new_nav);
 }
-function add_nav_ul(name, data, page_name) {
+function add_nav_ul(name, data, set_name, page_name) {
     var new_li = document.createElement('li');
     var a0 = document.createElement("a");
     a0.href = "#LeadBoard";
@@ -33,7 +33,7 @@ function add_nav_ul(name, data, page_name) {
     for (var i = 0; i < data.length; i = i + 1) {
         var sub_li = document.createElement('li');
         var sub_a = document.createElement('a');
-        if(data[i]["name"]==page_name){
+        if(data[i]["name"]==page_name && name==set_name){
             sub_li.setAttribute("class","active");
         }
         if(window.location.href.split('/').reverse()[1]=='leaderboard' && data[i]["link"].substring(0,4)!='http'){
@@ -52,7 +52,7 @@ function add_nav_ul(name, data, page_name) {
 
 }
 
-function add_nav(page_name) {
+function add_nav(set_name, page_name) {
     // load nav json data 
     var nav_json = "https://chiangel.github.io/benchmark/js/nav.json";
     var request = new XMLHttpRequest();
@@ -63,14 +63,14 @@ function add_nav(page_name) {
             var nav_data = JSON.parse(request.responseText);
             for (var i = 0; i < nav_data.length; i = i + 1) {
                 if (nav_data[i].hasOwnProperty("type")) {
-                    add_nav_ul(name=nav_data[i]["name"], data=nav_data[i]["data"], page_name=page_name);
+                    add_nav_ul(name=nav_data[i]["name"], data=nav_data[i]["data"], set_name=set_name, page_name=page_name);
                 }
                 else {
                     if (nav_data[i].hasOwnProperty("name")) {
-                        add_nav_li(link=nav_data[i]['link'], link_name=nav_data[i]["name"], page_name, mode=nav_data[i]["mode"]);
+                        add_nav_li(link=nav_data[i]['link'], link_name=nav_data[i]["name"], set_name=set_name, page_name=page_name, mode=nav_data[i]["mode"]);
                     }
                     else {
-                        add_nav_li(link=nav_data[i]["link"], link=nav_data[i]["name"],page_name);
+                        add_nav_li(link=nav_data[i]["link"], link=nav_data[i]["name"], set_name=set_name, page_name=page_name);
                     }
                 }
 
