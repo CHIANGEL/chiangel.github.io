@@ -54,14 +54,12 @@ function add_nav_ul(name, data, page_name) {
 
 function add_nav(page_name) {
     // load nav json data 
-    var nav_json = "https://cdn.jsdelivr.net/gh/CHIANGEL/chiangel.github.io@main/benchmark/js/nav.json"
-    window.alert(nav_json)
+    var nav_json = "https://chiangel.github.io/benchmark/js/nav.json";
     var request = new XMLHttpRequest();
     request.open("get", nav_json);
     request.send(null);
     request.onload = function () {
         if (request.status == 200) {
-            window.alert("tresttes")
             var nav_data = JSON.parse(request.responseText);
             for (var i = 0; i < nav_data.length; i = i + 1) {
                 if (nav_data[i].hasOwnProperty("type")) {
