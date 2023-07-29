@@ -1,65 +1,34 @@
 [
     {
-        "name":"CTR Prediction",
-        "link":"./"
-    },
-    {
-        "name":"Paper List",
-        "link":"./papers.html"
-    },
-    {
-        "name":"Datasets",
-        "link":"https://github.com/openbenchmark/BARS/tree/master/datasets#datasets",
-        "mode":1
-    },
-    {
-        "name":"Models",
-        "link":"https://github.com/openbenchmark/BARS/tree/master/BarsCTR/benchmarks",
-        "mode":1
-    },
-    {
-        "name": "Leaderboard",
+        "name": "Full-shot",
         "type": "ul",
         "data": [
         {
-            "name":"avazu_x1",
-            "link":"./leaderboard/avazu_x1.html"
-        },
-        {
-            "name":"avazu_x4",
-            "link":"./leaderboard/avazu_x4_001.html"
-        },
-        {
-            "name":"criteo_x1",
-            "link":"./leaderboard/criteo_x1.html"
-        },
-        {
-            "name":"criteo_x4",
-            "link":"./leaderboard/criteo_x4_001.html"
-        },
-        {
-            "name":"frappe_x1",
-            "link":"./leaderboard/frappe_x1.html"
-        },
-        {
-            "name":"kkbox_x1",
-            "link":"./leaderboard/kkbox_x1.html"
-        },
-        {
-            "name":"movielenslatest_x1",
-            "link":"./leaderboard/movielenslatest_x1.html"
+            "name":"Movielens-1M",
+            "link":"https://chiangel.github.io/benchmark/leaderboard/full-shot/Movielens-1M.html"
         }
-    ]
+        ]
     }
     ,
     {
-        "name":"Contributing",
-        "link":"https://github.com/openbenchmark/BARS/blob/master/CONTRIBUTING.md",
-        "mode":1
-    },
+        "name": "Few-shot",
+        "type": "ul",
+        "data": [
+        {
+            "name":"Movielens-1M",
+            "link":"https://chiangel.github.io/benchmark/leaderboard/few-shot/Movielens-1M.html"
+        }
+        ]
+    }
+    ,
     {
-        "name":"Fork Github Repo",
-        "link":"https://github.com/openbenchmark/BARS",
-        "mode":1
+        "name": "Zero-shot",
+        "type": "ul",
+        "data": [
+        {
+            "name":"Movielens-1M",
+            "link":"https://chiangel.github.io/benchmark/leaderboard/zero-shot/Movielens-1M.html"
+        }
+        ]
     }
 ]
