@@ -86,9 +86,9 @@ author:
   location         : "Shanghai, China"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # googlescholar    : "https://scholar.google.com/citations?user=vb30mvwAAAAJ&hl=zh-CN"
+  googlescholar    : "https://scholar.google.com/citations?user=vb30mvwAAAAJ&hl=zh-CN"
   email            : "chiangel.ljh@gmail.com"
-  # researchgate     : "https://www.researchgate.net/profile/Jianghao_Lin2"
+  researchgate     : "https://www.researchgate.net/profile/Jianghao_Lin2"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  # github           : "CHIANGEL"
+  github           : "CHIANGEL"
   google_plus      :
   keybase          :
   instagram        :
