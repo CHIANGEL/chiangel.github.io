@@ -17,8 +17,8 @@ Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
-- Jun., 2023. We release our [survey paper](https://arxiv.org/abs/2306.0587) and [awesome GitHub repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) for LLM-enhanced RS.
-- May, 2023. One paper was accepted by KDD 2023 (rate: 22.1%).
+- Jun., 2023. We release our [survey paper](https://arxiv.org/abs/2306.05817) and [awesome GitHub repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) for LLM-enhanced RS.
+- May, 2023. One paper was accepted by KDD 2023 (Accept Rate: 22.1%).
 
 Education
 ======
@@ -64,7 +64,7 @@ Selected Publications
 
 Academic Services
 ======
-
+Reviewer: KDD 2023, CIKM 2023, Journal of Intelligent & Fuzzy Systems, Nature Science Report, Frontier of Computer Science (FCS)
 
 
 Internships
