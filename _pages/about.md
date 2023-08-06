@@ -34,7 +34,7 @@ Selected Publications
 | **How Can Recommender Systems Benefit from Large Language Models: A Survey**|
 | :------ |  
 | **Jianghao Lin**<sup>*</sup>, Xinyi Dai<sup>*</sup>, Yunjia Xi, Weiwen Liu, Bo Chen, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
-| Arxiv Preprint. [Paper](1https://arxiv.org/abs/2306.0587). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
+| Arxiv Preprint. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
 
 | **MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction**|
 | :------ |  
