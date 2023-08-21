@@ -7,7 +7,6 @@
             "paper": "https://dl.acm.org/citation.cfm?id=1242643",
             "logloss": "0.3735",
             "auc": "0.7516",
-            "link": "https://github.com/openbenchmark/BARS/tree/master/ctr_prediction/benchmarks/LR/LR_avazu_x1",
             "contr": "Jianghao Lin",
             "contr_url": "chiangel.github.io"
         }
