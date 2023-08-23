@@ -31,6 +31,12 @@ Education
 Selected Publications
 ======
 
+| **ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation** |
+| :------ |  
+| **Jianghao Lin**, Rong Shan, Chenxu Zhu, Kounianhua Du, Bo Chen, Shigang Quan, Ruiming Tang, Yong Yu, Weinan Zhang. |  
+| Arxiv Preprint. [Paper](https://arxiv.org/abs/2308.11131). [Code]().
+
+
 | **How Can Recommender Systems Benefit from Large Language Models: A Survey**|
 | :------ |  
 | **Jianghao Lin**<sup>*</sup>, Xinyi Dai<sup>*</sup>, Yunjia Xi, Weiwen Liu, Bo Chen, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
