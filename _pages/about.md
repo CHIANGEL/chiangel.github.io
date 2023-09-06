@@ -17,6 +17,7 @@ Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
+- Sep., 2023. We release a bilingual programming evaluation benchmark for large language models. Welcome to visit our benchmark [webcite](https://apex.sjtu.edu.cn/codeapex/).
 - Jun., 2023. We release our [survey paper](https://arxiv.org/abs/2306.05817) and [awesome GitHub repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) for LLM-enhanced RS.
 - May, 2023. One paper was accepted by KDD 2023 (Accept Rate: 22.1%).
 
@@ -41,6 +42,12 @@ Selected Publications
 | :------ |  
 | **Jianghao Lin**<sup>*</sup>, Xinyi Dai<sup>*</sup>, Yunjia Xi, Weiwen Liu, Bo Chen, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
 | Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
+
+
+| **Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models**|
+| :------ |  
+| Yunjia Xi, Weiwen Liu, **Jianghao Lin**, Jieming Zhu, Bo Chen, Ruiming Tang, Weinan Zhang, Rui Zhang, Yong Yu. |  
+| Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2306.10933). [Code]().
 
 | **MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction**|
 | :------ |  
