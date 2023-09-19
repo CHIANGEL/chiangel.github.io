@@ -17,6 +17,7 @@ Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
+- Sep., 2023. Our [paper](https://arxiv.org/abs/2306.10933) wins the best paper award at DLP-RecSys 2023. 
 - Sep., 2023. We release a bilingual programming evaluation benchmark for large language models. Welcome to visit our benchmark [webcite](https://apex.sjtu.edu.cn/codeapex/).
 - Jun., 2023. We release our [survey paper](https://arxiv.org/abs/2306.05817) and [awesome GitHub repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) for LLM-enhanced RS.
 - May, 2023. One paper was accepted by KDD 2023 (Accept Rate: 22.1%).
@@ -35,19 +36,17 @@ Selected Publications
 | **ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation** |
 | :------ |  
 | **Jianghao Lin**, Rong Shan, Chenxu Zhu, Kounianhua Du, Bo Chen, Shigang Quan, Ruiming Tang, Yong Yu, Weinan Zhang. |  
-| Arxiv Preprint. [Paper](https://arxiv.org/abs/2308.11131). [Code]().
-
+| Arxiv Preprint. [Paper](https://arxiv.org/abs/2308.11131). 
 
 | **How Can Recommender Systems Benefit from Large Language Models: A Survey**|
 | :------ |  
 | **Jianghao Lin**<sup>*</sup>, Xinyi Dai<sup>*</sup>, Yunjia Xi, Weiwen Liu, Bo Chen, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
 | Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
 
-
 | **Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models**|
 | :------ |  
 | Yunjia Xi, Weiwen Liu, **Jianghao Lin**, Jieming Zhu, Bo Chen, Ruiming Tang, Weinan Zhang, Rui Zhang, Yong Yu. |  
-| Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2306.10933). [Code]().
+| DLP-RecSys 2023 (<font color=red>Best Paper Award</font>). [Paper](https://arxiv.org/abs/2306.10933). 
 
 | **MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction**|
 | :------ |  
@@ -77,7 +76,7 @@ Selected Publications
 
 Academic Services
 ======
-Reviewer: KDD 2023, CIKM 2023, Journal of Intelligent & Fuzzy Systems, Nature Science Report, Frontier of Computer Science (FCS)
+Reviewer: WWW 2024, KDD 2023, CIKM 2023, Journal of Intelligent & Fuzzy Systems, Nature Science Report, Frontier of Computer Science (FCS)
 
 
 Internships
@@ -94,6 +93,7 @@ Competition
 
 Honor and Awards
 ======
+- [2022.] Best Paper Award at DLP-RecSys 2023
 - [2021.] National Scholarship for Graduate Student
 - [2021.] Shanghai Outstanding Undergraduate
 - [2020.] Tang Lixin Scholarship ([certificate](https://chiangel.github.io/files/awards/2020-tang-lixin-scholarship.pdf)).
@@ -104,5 +104,4 @@ More
 ======
 My hobbies mainly focus on animation and online games.
 
-<!-- <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=xr9minmU_3UiAWyACZVtcQaM-nNh_GIOK4eE9pFCvi0&cl=ffffff&w=a"></script> -->
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=xr9minmU_3UiAWyACZVtcQaM-nNh_GIOK4eE9pFCvi0'></script>
