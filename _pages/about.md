@@ -76,7 +76,8 @@ Selected Publications
 
 Academic Services
 ======
-Reviewer: WWW 2024, KDD 2023, CIKM 2023, Journal of Intelligent & Fuzzy Systems, Nature Science Report, Frontier of Computer Science (FCS)
+Conference Reviewer: WWW 2024, WSDM 2024, KDD 2023, CIKM 2023, 
+Journal Review: TKDE, Frontier of Computer Science (FCS), Nature Science Report, Journal of Intelligent & Fuzzy Systems
 
 
 Internships
