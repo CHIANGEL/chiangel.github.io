@@ -56,7 +56,7 @@ Selected Publications
 | **MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction**|
 | :------ |  
 | **Jianghao Lin**, Yanru Qu, Wei Guo, Xinyi Dai, Ruiming Tang, Yong Yu, Weinan Zhang. |  
-| KDD 2023 (Full Paper). [Paper](https://arxiv.org/abs/2308.01737). [Code]().
+| KDD 2023 (Full Paper). [Paper](https://arxiv.org/abs/2308.01737). [Code](https://github.com/CHIANGEL/MAP-CODE).
 
 | **A Bird’s-eye View of Reranking: from List Level to Page Level**|
 | :------ |  
