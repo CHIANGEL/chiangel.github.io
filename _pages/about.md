@@ -33,7 +33,7 @@ Education
 Selected Publications
 ======
 
-| **ALT: Towards Fine-grained Alignment between Language and CTR Models for Click-Through Rate Prediction** |
+| **FLIP: Towards Fine-grained Alignment between ID-based Models and Pretrained Language Models for CTR Prediction** |
 | :------ |  
 | Hangyu Wang<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Xiangyang Li, Bo Chen, Chenxu Zhu, Ruiming Tang, Weinan Zhang, Yong Yu. |  
 | Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2310.19453). 
