@@ -46,7 +46,7 @@ Selected Publications
 | **ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation** |
 | :------ |  
 | **Jianghao Lin**, Rong Shan, Chenxu Zhu, Kounianhua Du, Bo Chen, Shigang Quan, Ruiming Tang, Yong Yu, Weinan Zhang. |  
-| Arxiv Preprint. [Paper](https://arxiv.org/abs/2308.11131). 
+| Arxiv Preprint. [Paper](https://arxiv.org/abs/2308.11131) [Code v1](https://github.com/LaVieEnRose365/ReLLa) [Code v2](https://github.com/CHIANGEL/ReLLa-hf4.35.2). 
 
 | **How Can Recommender Systems Benefit from Large Language Models: A Survey**|
 | :------ |  
