@@ -33,7 +33,7 @@ Education
 Selected Publications
 ======
 
-##### LLM-enhanced Recommendation
+#### LLM-enhanced Recommendation
 
 | **FLIP: Towards Fine-grained Alignment between ID-based Models and Pretrained Language Models for CTR Prediction** |
 | :------ |  
@@ -60,7 +60,7 @@ Selected Publications
 | Yunjia Xi, Weiwen Liu, **Jianghao Lin**, Jieming Zhu, Bo Chen, Ruiming Tang, Weinan Zhang, Rui Zhang, Yong Yu. |  
 | DLP-RecSys 2023 (<font color=red>Best Paper Award</font>). [Paper](https://arxiv.org/abs/2306.10933). 
 
-##### General Personalized Recommendation
+#### General Personalized Recommendation
 
 | **MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction**|
 | :------ |  
@@ -72,7 +72,7 @@ Selected Publications
 | Yunjia Xi<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Weiwen Liu, Xinyi Dai, Weinan Zhang, Rui Zhang, Ruiming Tang, Yong Yu. |  
 | WSDM 2023 (Full Paper). Co-first Author. [Paper](https://arxiv.org/abs/2211.09303). [Code](https://github.com/YunjiaXi/Page-level-Attentional-Reranking).
 
-##### User Click Models
+#### User Click Models
 
 | **An F-shape Click Model for Information Retrieval on Multi-block Mobile Pages**|
 | :------ |  
