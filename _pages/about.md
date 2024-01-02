@@ -74,6 +74,11 @@ Selected Publications
 
 ### User Click Models
 
+| **Adversarially Trained Environment Models Are Effective Policy Evaluators and Improvers - An Application to Information Retrieval**|
+| :------ |  
+| Yao Li, Yifan Liu, Xinyi Dai, **Jianghao Lin**, Hang Lai, Yunfei Liu, Yong Yu. |  
+| DAI 2023 (Full Paper). [Paper](https://dl.acm.org/doi/10.1145/3627676.3627680).
+
 | **An F-shape Click Model for Information Retrieval on Multi-block Mobile Pages**|
 | :------ |  
 | Lingyue Fu<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Weiwen Liu, Ruiming Tang, Weinan Zhang, Rui Zhang, Yong Yu. |  
