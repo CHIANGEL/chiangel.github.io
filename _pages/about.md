@@ -58,7 +58,7 @@ Selected Publications
 | **Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models**|
 | :------ |  
 | Yunjia Xi, Weiwen Liu, **Jianghao Lin**, Jieming Zhu, Bo Chen, Ruiming Tang, Weinan Zhang, Rui Zhang, Yong Yu. |  
-| DLP-RecSys 2023 (<font color=red>Best Paper Award</font>). [Paper](https://arxiv.org/abs/2306.10933). 
+| DLP-RecSys 2023 (<font color=red>Best Paper Award</font>). [Paper](https://arxiv.org/abs/2306.10933). [Repo](https://github.com/YunjiaXi/Open-World-Knowledge-Augmented-Recommendation).
 
 ### General Personalized Recommendation
 
@@ -97,8 +97,8 @@ Selected Publications
 
 Academic Services
 ======
-Conference Reviewer: WWW 2024, WSDM 2024, KDD 2023, CIKM 2023, 
-Journal Review: TKDE, Frontier of Computer Science (FCS), Nature Science Report, Journal of Intelligent & Fuzzy Systems
+- **Conference Review**: KDD, WWW, WSDM, CIKM
+- **Journal Review**: TKDE, TORS, Frontier of Computer Science (FCS), Nature Science Report, Journal of Intelligent & Fuzzy Systems
 
 
 Internships
