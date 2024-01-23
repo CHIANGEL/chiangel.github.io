@@ -17,6 +17,7 @@ Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
+- Jan., 2024. Three papers were accepted by WWW 2024 (Accept Rate: 20.2%)
 - Sep., 2023. Our [paper](https://arxiv.org/abs/2306.10933) wins the best paper award at DLP-RecSys 2023. 
 - Sep., 2023. We release a bilingual programming evaluation benchmark for large language models. Welcome to visit our benchmark [webcite](https://apex.sjtu.edu.cn/codeapex/).
 - Jun., 2023. We release our [survey paper](https://arxiv.org/abs/2306.05817) and [awesome GitHub repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) for LLM-enhanced RS.
@@ -43,12 +44,12 @@ Selected Publications
 | **ClickPrompt: CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction** |
 | :------ |  
 | **Jianghao Lin**, Bo Chen, Hangyu Wang, Yunjia Xi, Yanru Qu, Xinyi Dai, Kangning Zhang, Ruiming Tang, Yong Yu, Weinan Zhang. |  
-| WWW 2024. [Paper](https://arxiv.org/abs/2310.09234). 
+| WWW 2024 (Full Paper). [Paper](https://arxiv.org/abs/2310.09234). 
 
 | **ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation** |
 | :------ |  
 | **Jianghao Lin**, Rong Shan, Chenxu Zhu, Kounianhua Du, Bo Chen, Shigang Quan, Ruiming Tang, Yong Yu, Weinan Zhang. |  
-| WWW 2024. [Paper](https://arxiv.org/abs/2308.11131) [Code v1](https://github.com/LaVieEnRose365/ReLLa) [Code v2](https://github.com/CHIANGEL/ReLLa-hf4.35.2). 
+| WWW 2024 (Full Paper). [Paper](https://arxiv.org/abs/2308.11131) [Code v1](https://github.com/LaVieEnRose365/ReLLa) [Code v2](https://github.com/CHIANGEL/ReLLa-hf4.35.2). 
 
 | **How Can Recommender Systems Benefit from Large Language Models: A Survey**|
 | :------ |  
@@ -61,6 +62,11 @@ Selected Publications
 | DLP-RecSys 2023 (<font color=red>Best Paper Award</font>). [Paper](https://arxiv.org/abs/2306.10933). [Repo](https://github.com/YunjiaXi/Open-World-Knowledge-Augmented-Recommendation).
 
 ### General Personalized Recommendation
+
+| **M-scan: A Multi-Scenario Causal-driven Adaptive Network for Recommendation**|
+| :------ |  
+| Jiachen Zhu, Yichao Wang, **Jianghao Lin**, Jiarui Qin, Ruiming Tang, Weinan Zhang, Yong Yu. |  
+| WWW 2024 (Full Paper). 
 
 | **MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction**|
 | :------ |  
