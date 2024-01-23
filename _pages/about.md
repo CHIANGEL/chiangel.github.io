@@ -19,7 +19,6 @@ Recent News
 ======
 - Jan., 2024. Three papers were accepted by WWW 2024 (Accept Rate: 20.2%)
 - Sep., 2023. Our [paper](https://arxiv.org/abs/2306.10933) wins the best paper award at DLP-RecSys 2023. 
-- Sep., 2023. We release a bilingual programming evaluation benchmark for large language models. Welcome to visit our benchmark [webcite](https://apex.sjtu.edu.cn/codeapex/).
 - Jun., 2023. We release our [survey paper](https://arxiv.org/abs/2306.05817) and [awesome GitHub repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) for LLM-enhanced RS.
 - May, 2023. One paper was accepted by KDD 2023 (Accept Rate: 22.1%).
 
@@ -36,25 +35,25 @@ Selected Publications
 
 ### LLM-enhanced Recommendation
 
-| **FLIP: Towards Fine-grained Alignment between ID-based Models and Pretrained Language Models for CTR Prediction** |
+| **How Can Recommender Systems Benefit from Large Language Models: A Survey**|
 | :------ |  
-| Hangyu Wang<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Xiangyang Li, Bo Chen, Chenxu Zhu, Ruiming Tang, Weinan Zhang, Yong Yu. |  
-| Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2310.19453). 
-
-| **ClickPrompt: CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction** |
-| :------ |  
-| **Jianghao Lin**, Bo Chen, Hangyu Wang, Yunjia Xi, Yanru Qu, Xinyi Dai, Kangning Zhang, Ruiming Tang, Yong Yu, Weinan Zhang. |  
-| WWW 2024 (Full Paper). [Paper](https://arxiv.org/abs/2310.09234). 
+| **Jianghao Lin**<sup>*</sup>, Xinyi Dai<sup>*</sup>, Yunjia Xi, Weiwen Liu, Bo Chen, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
+| Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
 
 | **ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation** |
 | :------ |  
 | **Jianghao Lin**, Rong Shan, Chenxu Zhu, Kounianhua Du, Bo Chen, Shigang Quan, Ruiming Tang, Yong Yu, Weinan Zhang. |  
 | WWW 2024 (Full Paper). [Paper](https://arxiv.org/abs/2308.11131) [Code v1](https://github.com/LaVieEnRose365/ReLLa) [Code v2](https://github.com/CHIANGEL/ReLLa-hf4.35.2). 
 
-| **How Can Recommender Systems Benefit from Large Language Models: A Survey**|
+| **ClickPrompt: CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction** |
 | :------ |  
-| **Jianghao Lin**<sup>*</sup>, Xinyi Dai<sup>*</sup>, Yunjia Xi, Weiwen Liu, Bo Chen, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
-| Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
+| **Jianghao Lin**, Bo Chen, Hangyu Wang, Yunjia Xi, Yanru Qu, Xinyi Dai, Kangning Zhang, Ruiming Tang, Yong Yu, Weinan Zhang. |  
+| WWW 2024 (Full Paper). [Paper](https://arxiv.org/abs/2310.09234). 
+
+| **FLIP: Towards Fine-grained Alignment between ID-based Models and Pretrained Language Models for CTR Prediction** |
+| :------ |  
+| Hangyu Wang<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Xiangyang Li, Bo Chen, Chenxu Zhu, Ruiming Tang, Weinan Zhang, Yong Yu. |  
+| Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2310.19453). 
 
 | **Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models**|
 | :------ |  
