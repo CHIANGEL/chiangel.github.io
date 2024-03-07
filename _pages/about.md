@@ -37,18 +37,23 @@ Selected Publications
 
 | **How Can Recommender Systems Benefit from Large Language Models: A Survey**|
 | :------ |  
-| **Jianghao Lin**<sup>*</sup>, Xinyi Dai<sup>*</sup>, Yunjia Xi, Weiwen Liu, Bo Chen, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
-| Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
+| **Jianghao Lin**, Xinyi Dai, Yunjia Xi, Weiwen Liu, Bo Chen, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
+| Arxiv Preprint. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
+
+| **Towards Efficient and Effective Unlearning of Large Language Models for Recommendation**|
+| :------ |  
+| Hangyu Wang<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Bo Chen, Yang Yang, Ruiming Tang, Weinan Zhang, Yong Yu. |  
+| Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2403.03536). [Code](https://github.com/justarter/E2URec).
 
 | **ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation** |
 | :------ |  
 | **Jianghao Lin**, Rong Shan, Chenxu Zhu, Kounianhua Du, Bo Chen, Shigang Quan, Ruiming Tang, Yong Yu, Weinan Zhang. |  
-| WWW 2024 (Full Paper). [Paper](https://arxiv.org/abs/2308.11131) [Code v1](https://github.com/LaVieEnRose365/ReLLa) [Code v2](https://github.com/CHIANGEL/ReLLa-hf4.35.2). 
+| WWW 2024 (Full, Oral). [Paper](https://arxiv.org/abs/2308.11131) [Code v1](https://github.com/LaVieEnRose365/ReLLa) [Code v2](https://github.com/CHIANGEL/ReLLa-hf4.35.2). 
 
 | **ClickPrompt: CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction** |
 | :------ |  
 | **Jianghao Lin**, Bo Chen, Hangyu Wang, Yunjia Xi, Yanru Qu, Xinyi Dai, Kangning Zhang, Ruiming Tang, Yong Yu, Weinan Zhang. |  
-| WWW 2024 (Full Paper). [Paper](https://arxiv.org/abs/2310.09234). 
+| WWW 2024 (Full, Oral). [Paper](https://arxiv.org/abs/2310.09234). [Code](https://github.com/CHIANGEL/ClickPrompt).
 
 | **FLIP: Towards Fine-grained Alignment between ID-based Models and Pretrained Language Models for CTR Prediction** |
 | :------ |  
@@ -62,48 +67,53 @@ Selected Publications
 
 ### General Personalized Recommendation
 
+| **Mamba4Rec: Towards Efficient Sequential Recommendation with Selective State Space Models**|
+| :------ |  
+| Chengkai Liu, **Jianghao Lin**, Jianling Wang, Hanzhou Liu, James Caverlee. |  
+| Arxiv Preprint. [Paper](https://arxiv.org/abs/2403.03900). [Code](https://github.com/chengkai-liu/Mamba4Rec).
+
 | **M-scan: A Multi-Scenario Causal-driven Adaptive Network for Recommendation**|
 | :------ |  
 | Jiachen Zhu, Yichao Wang, **Jianghao Lin**, Jiarui Qin, Ruiming Tang, Weinan Zhang, Yong Yu. |  
-| WWW 2024 (Full Paper). 
+| WWW 2024 (Full, Poster). 
 
 | **MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction**|
 | :------ |  
 | **Jianghao Lin**, Yanru Qu, Wei Guo, Xinyi Dai, Ruiming Tang, Yong Yu, Weinan Zhang. |  
-| KDD 2023 (Full Paper). [Paper](https://arxiv.org/abs/2308.01737). [Code](https://github.com/CHIANGEL/MAP-CODE).
+| KDD 2023 (Full, Oral). [Paper](https://arxiv.org/abs/2308.01737). [Code](https://github.com/CHIANGEL/MAP-CODE).
 
 | **A Bird’s-eye View of Reranking: from List Level to Page Level**|
 | :------ |  
 | Yunjia Xi<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Weiwen Liu, Xinyi Dai, Weinan Zhang, Rui Zhang, Ruiming Tang, Yong Yu. |  
-| WSDM 2023 (Full Paper). Co-first Author. [Paper](https://arxiv.org/abs/2211.09303). [Code](https://github.com/YunjiaXi/Page-level-Attentional-Reranking).
+| WSDM 2023 (Full, Poster). Co-first Author. [Paper](https://arxiv.org/abs/2211.09303). [Code](https://github.com/YunjiaXi/Page-level-Attentional-Reranking).
 
 ### User Click Models
 
 | **Adversarially Trained Environment Models Are Effective Policy Evaluators and Improvers - An Application to Information Retrieval**|
 | :------ |  
 | Yao Li, Yifan Liu, Xinyi Dai, **Jianghao Lin**, Hang Lai, Yunfei Liu, Yong Yu. |  
-| DAI 2023 (Full Paper). [Paper](https://dl.acm.org/doi/10.1145/3627676.3627680).
+| DAI 2023 (Full, Oral). [Paper](https://dl.acm.org/doi/10.1145/3627676.3627680).
 
 | **An F-shape Click Model for Information Retrieval on Multi-block Mobile Pages**|
 | :------ |  
 | Lingyue Fu<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Weiwen Liu, Ruiming Tang, Weinan Zhang, Rui Zhang, Yong Yu. |  
-| WSDM 2023 (Full Paper). Co-first Author. [Paper](https://arxiv.org/abs/2206.08604). [Code](https://github.com/fulingyue/F-shape-Click-Model-FSCM).
+| WSDM 2023 (Full, Poster). Co-first Author. [Paper](https://arxiv.org/abs/2206.08604). [Code](https://github.com/fulingyue/F-shape-Click-Model-FSCM).
 
 | **A Graph-Enhanced Click Model for Web Search**|
 | :------ |  
 | **Jianghao Lin**, Weiwen Liu, Xinyi Dai, Weinan Zhang, Shuai Li, Ruiming Tang, Xiuqiang He, Jianye Hao, Jun Wang, Yong Yu. |  
-| SIGIR 2021 (Full Paper). [Paper](https://arxiv.org/abs/2206.08621). [Code](https://github.com/CHIANGEL/GraphCM).
+| SIGIR 2021 (Full, Oral). [Paper](https://arxiv.org/abs/2206.08621). [Code](https://github.com/CHIANGEL/GraphCM).
 
 | **An Adversarial Imitation Click Model for Information Retrieval**|
 | :------ |  
 | Xinyi Dai, **Jianghao Lin**, Weinan Zhang, Shuai Li, Weiwen Liu, Ruiming Tang, Xiuqiang He, Jianye Hao, Jun Wang, Yong Yu. |  
-| WWW 2021 (Full Paper). [Paper](https://arxiv.org/abs/2104.06077). [Code](https://github.com/xydaisjtu/AICM).
+| WWW 2021 (Full, Oral). [Paper](https://arxiv.org/abs/2104.06077). [Code](https://github.com/xydaisjtu/AICM).
 
 
 Academic Services
 ======
 - **Conference Review**: KDD, WWW, WSDM, CIKM
-- **Journal Review**: TKDE, TORS, Frontier of Computer Science (FCS), Nature Science Report, Journal of Intelligent & Fuzzy Systems
+- **Journal Review**: TKDE, TOIS, TORS, Frontier of Computer Science (FCS), Nature Science Report, Journal of Intelligent & Fuzzy Systems
 
 
 Internships
