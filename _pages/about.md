@@ -41,6 +41,11 @@ Selected Publications
 | **Jianghao Lin**, Xinyi Dai, Yunjia Xi, Weiwen Liu, Bo Chen, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
 | Arxiv Preprint. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
 
+| **DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation** |
+| :------ |  
+| Kounianhua Du, Jizheng Chen, **Jianghao Lin**, Yunjia Xi, Hangyu Wang, Xinyi Dai, Bo Chen, Ruiming Tang, Weinan Zhang. |  
+| KDD 2024 (Full). 
+
 | **Towards Efficient and Effective Unlearning of Large Language Models for Recommendation**|
 | :------ |  
 | Hangyu Wang<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Bo Chen, Yang Yang, Ruiming Tang, Weinan Zhang, Yong Yu. |  
@@ -50,11 +55,6 @@ Selected Publications
 | :------ |  
 | **Jianghao Lin**, Rong Shan, Chenxu Zhu, Kounianhua Du, Bo Chen, Shigang Quan, Ruiming Tang, Yong Yu, Weinan Zhang. |  
 | WWW 2024 (Full, Oral). [Paper](https://arxiv.org/abs/2308.11131) [Code v1](https://github.com/LaVieEnRose365/ReLLa) [Code v2](https://github.com/CHIANGEL/ReLLa-hf4.35.2). 
-
-| **DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation** |
-| :------ |  
-| Kounianhua Du, Jizheng Chen, **Jianghao Lin**, Yunjia Xi, Hangyu Wang, Xinyi Dai, Bo Chen, Ruiming Tang, Weinan Zhang. |  
-| KDD 2024 (Full). 
 
 | **ClickPrompt: CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction** |
 | :------ |  
