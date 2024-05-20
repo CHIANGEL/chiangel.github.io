@@ -17,7 +17,7 @@ Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
-- May., 2024. One papers  accepted by KDD 2024 (Accept Rate: 20.0%)
+- May., 2024. One paper was accepted by KDD 2024 (Accept Rate: 20.0%)
 - Jan., 2024. Three papers were accepted by WWW 2024 (Accept Rate: 20.2%)
 - Sep., 2023. Our [paper](https://arxiv.org/abs/2306.10933) wins the best paper award at DLP-RecSys 2023. 
 - Jun., 2023. We release our [survey paper](https://arxiv.org/abs/2306.05817) and [awesome GitHub repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) for LLM-enhanced RS.
