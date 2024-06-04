@@ -83,10 +83,15 @@ Selected Publications
 | Chengkai Liu, **Jianghao Lin**, Jianling Wang, Hanzhou Liu, James Caverlee. |  
 | Arxiv Preprint. [Paper](https://arxiv.org/abs/2403.03900). [Code](https://github.com/chengkai-liu/Mamba4Rec).
 
+| **Invariant Graph Contrastive Learning for Mitigating Neighborhood Bias in Graph Neural Network based Recommender Systems**|
+| :------ |  
+| Zhenyu Mu, **Jianghao Lin**, Xiaoyu Zhu, Weinan Zhang, Yong Yu. |  
+| ICANN 2024 (Full, Oral). |
+
 | **M-scan: A Multi-Scenario Causal-driven Adaptive Network for Recommendation**|
 | :------ |  
 | Jiachen Zhu, Yichao Wang, **Jianghao Lin**, Jiarui Qin, Ruiming Tang, Weinan Zhang, Yong Yu. |  
-| WWW 2024 (Full, Poster). 
+| WWW 2024 (Full, Poster). |
 
 | **MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction**|
 | :------ |  
