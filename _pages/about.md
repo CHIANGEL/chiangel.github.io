@@ -44,7 +44,7 @@ Selected Publications
 | **DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation** |
 | :------ |  
 | Kounianhua Du, Jizheng Chen, **Jianghao Lin**, Yunjia Xi, Hangyu Wang, Xinyi Dai, Bo Chen, Ruiming Tang, Weinan Zhang. |  
-| KDD 2024 (Full).  [Paper](https://arxiv.org/abs/2406.00011). [Code](https://github.com/KounianhuaDu/DisCo).
+| KDD 2024 (Full, Oral).  [Paper](https://arxiv.org/abs/2406.00011). [Code](https://github.com/KounianhuaDu/DisCo).
 
 | **Towards Efficient and Effective Unlearning of Large Language Models for Recommendation**|
 | :------ |  
@@ -91,7 +91,7 @@ Selected Publications
 | **M-scan: A Multi-Scenario Causal-driven Adaptive Network for Recommendation**|
 | :------ |  
 | Jiachen Zhu, Yichao Wang, **Jianghao Lin**, Jiarui Qin, Ruiming Tang, Weinan Zhang, Yong Yu. |  
-| WWW 2024 (Full, Poster). |
+| WWW 2024 (Full, Poster). [Paper](https://arxiv.org/abs/2404.07581). |
 
 | **MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction**|
 | :------ |  
