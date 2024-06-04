@@ -44,12 +44,17 @@ Selected Publications
 | **DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation** |
 | :------ |  
 | Kounianhua Du, Jizheng Chen, **Jianghao Lin**, Yunjia Xi, Hangyu Wang, Xinyi Dai, Bo Chen, Ruiming Tang, Weinan Zhang. |  
-| KDD 2024 (Full). 
+| KDD 2024 (Full).  [Paper](https://arxiv.org/abs/2406.00011). [Code](https://github.com/KounianhuaDu/DisCo).
 
 | **Towards Efficient and Effective Unlearning of Large Language Models for Recommendation**|
 | :------ |  
 | Hangyu Wang<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Bo Chen, Yang Yang, Ruiming Tang, Weinan Zhang, Yong Yu. |  
 | Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2403.03536). [Code](https://github.com/justarter/E2URec).
+
+| **Large Language Models Make Sample-Efficient Recommender Systems**|
+| :------ |  
+| **Jianghao Lin**, Xinyi Dai, Rong Shan, Bo Chen, Ruiming Tang, Yong Yu, Weinan Zhang. |  
+| Frontiers of Computer Science 2024 (CCF-B). 
 
 | **ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation** |
 | :------ |  
