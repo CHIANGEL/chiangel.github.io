@@ -17,7 +17,7 @@ Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
-- Jun., 2024. Two papers were accepted by Frontiers of Computer Science 2024 (CCF-B)
+- Jun., 2024. Two papers were accepted by Frontiers of Computer Science (CCF-B)
 - May., 2024. One paper was accepted by KDD 2024 (Accept Rate: 20.0%)
 - Jan., 2024. Three papers were accepted by WWW 2024 (Accept Rate: 20.2%)
 - Sep., 2023. Our [paper](https://arxiv.org/abs/2306.10933) wins the best paper award at DLP-RecSys 2023. 
