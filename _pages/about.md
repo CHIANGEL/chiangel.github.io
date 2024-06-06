@@ -17,6 +17,7 @@ Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
+- Jun., 2024. Two papers were accepted by Frontiers of Computer Science 2024 (CCF-B)
 - May., 2024. One paper was accepted by KDD 2024 (Accept Rate: 20.0%)
 - Jan., 2024. Three papers were accepted by WWW 2024 (Accept Rate: 20.2%)
 - Sep., 2023. Our [paper](https://arxiv.org/abs/2306.10933) wins the best paper award at DLP-RecSys 2023. 
@@ -49,12 +50,12 @@ Selected Publications
 | **Towards Efficient and Effective Unlearning of Large Language Models for Recommendation**|
 | :------ |  
 | Hangyu Wang<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Bo Chen, Yang Yang, Ruiming Tang, Weinan Zhang, Yong Yu. |  
-| Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2403.03536). [Code](https://github.com/justarter/E2URec).
+| Frontiers of Computer Science 2024 (CCF-B). Co-first Author. [Paper](https://arxiv.org/abs/2403.03536). [Code](https://github.com/justarter/E2URec).
 
 | **Large Language Models Make Sample-Efficient Recommender Systems**|
 | :------ |  
 | **Jianghao Lin**, Xinyi Dai, Rong Shan, Bo Chen, Ruiming Tang, Yong Yu, Weinan Zhang. |  
-| Frontiers of Computer Science 2024 (CCF-B). 
+| Frontiers of Computer Science 2024 (CCF-B). [Paper](https://arxiv.org/abs/2406.02368). |
 
 | **ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation** |
 | :------ |  
