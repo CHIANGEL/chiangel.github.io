@@ -40,7 +40,7 @@ Selected Publications
 
 | **How Can Recommender Systems Benefit from Large Language Models: A Survey**|
 | :------ |  
-| **Jianghao Lin**, Xinyi Dai, Yunjia Xi, Weiwen Liu, Bo Chen, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
+| **Jianghao Lin**, Xinyi Dai, Yunjia Xi, Weiwen Liu, Bo Chen, Hao Zhang, Yong Liu, Chuhan Wu, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
 | ACM Transactions on Information Systems (TOIS) 2024. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
 
 | **DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation** |
