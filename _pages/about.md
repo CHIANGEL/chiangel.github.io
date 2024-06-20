@@ -17,6 +17,7 @@ Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
+- Jun., 2024. Our [survey paper](https://arxiv.org/abs/2306.05817) was accepted by TOIS (CCF A).
 - Jun., 2024. Two papers were accepted by Frontiers of Computer Science (CCF-B)
 - May., 2024. One paper was accepted by KDD 2024 (Accept Rate: 20.0%)
 - Jan., 2024. Three papers were accepted by WWW 2024 (Accept Rate: 20.2%)
@@ -40,7 +41,7 @@ Selected Publications
 | **How Can Recommender Systems Benefit from Large Language Models: A Survey**|
 | :------ |  
 | **Jianghao Lin**, Xinyi Dai, Yunjia Xi, Weiwen Liu, Bo Chen, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
-| Arxiv Preprint. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
+| ACM Transactions on Information Systems (TOIS) 2024. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
 
 | **DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation** |
 | :------ |  
