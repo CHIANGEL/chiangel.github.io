@@ -17,7 +17,7 @@ Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
-- Jun., 2024. Our [survey paper](https://arxiv.org/abs/2306.05817) was accepted by TOIS (CCF A).
+- Jun., 2024. Our [survey paper](https://arxiv.org/abs/2306.05817) about LLM-enhanced RS was accepted by TOIS (CCF A).
 - Jun., 2024. Two papers were accepted by Frontiers of Computer Science (CCF-B)
 - May., 2024. One paper was accepted by KDD 2024 (Accept Rate: 20.0%)
 - Jan., 2024. Three papers were accepted by WWW 2024 (Accept Rate: 20.2%)
