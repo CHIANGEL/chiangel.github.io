@@ -43,15 +43,21 @@ Selected Publications
 | **Jianghao Lin**, Xinyi Dai, Yunjia Xi, Weiwen Liu, Bo Chen, Hao Zhang, Yong Liu, Chuhan Wu, Xiangyang Li, Chenxu Zhu, Huifeng Guo, Yong Yu, Ruiming Tang, Weinan Zhang. |  
 | ACM Transactions on Information Systems (TOIS) 2024. [Paper](https://arxiv.org/abs/2306.05817). [Repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys).
 
+| **MemoCRS: Memory-enhanced Sequential Conversational Recommender Systems with Large Language Models** |
+| :------ |  
+| Yunjia Xi, Weiwen Liu, **Jianghao Lin**, Bo Chen, Ruiming Tang, Weinan Zhang, Yong Yu. |  
+| Arxiv Preprint.  [Paper](https://arxiv.org/abs/2407.04960). |
+
+
 | **DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation** |
 | :------ |  
 | Kounianhua Du, Jizheng Chen, **Jianghao Lin**, Yunjia Xi, Hangyu Wang, Xinyi Dai, Bo Chen, Ruiming Tang, Weinan Zhang. |  
-| KDD 2024 (Full, Oral).  [Paper](https://arxiv.org/abs/2406.00011). [Code](https://github.com/KounianhuaDu/DisCo).
+| KDD 2024 (Full, Oral).  [Paper](https://arxiv.org/abs/2406.00011). [Code](https://github.com/KounianhuaDu/DisCo). |
 
 | **Towards Efficient and Effective Unlearning of Large Language Models for Recommendation**|
 | :------ |  
 | Hangyu Wang<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Bo Chen, Yang Yang, Ruiming Tang, Weinan Zhang, Yong Yu. |  
-| Frontiers of Computer Science 2024 (CCF-B). Co-first Author. [Paper](https://arxiv.org/abs/2403.03536). [Code](https://github.com/justarter/E2URec).
+| Frontiers of Computer Science 2024 (CCF-B). Co-first Author. [Paper](https://arxiv.org/abs/2403.03536). [Code](https://github.com/justarter/E2URec). |
 
 | **Large Language Models Make Sample-Efficient Recommender Systems**|
 | :------ |  
