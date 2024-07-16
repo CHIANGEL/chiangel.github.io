@@ -17,6 +17,7 @@ Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
+- Jul., 2024. Five papers were accepted by CIKM 2024 (Accept Rate: 23.0%)
 - Jun., 2024. Our [survey paper](https://arxiv.org/abs/2306.05817) about LLM-enhanced RS was accepted by TOIS (CCF A).
 - Jun., 2024. Two papers were accepted by Frontiers of Computer Science (CCF-B)
 - May., 2024. One paper was accepted by KDD 2024 (Accept Rate: 20.0%)
@@ -46,8 +47,12 @@ Selected Publications
 | **MemoCRS: Memory-enhanced Sequential Conversational Recommender Systems with Large Language Models** |
 | :------ |  
 | Yunjia Xi, Weiwen Liu, **Jianghao Lin**, Bo Chen, Ruiming Tang, Weinan Zhang, Yong Yu. |  
-| Arxiv Preprint.  [Paper](https://arxiv.org/abs/2407.04960). |
+| CIKM 2024.  [Paper](https://arxiv.org/abs/2407.04960). |
 
+| **ELCoRec: Enhance Language Understanding with Co-Propagation of Numerical and Categorical Features for Recommendation** |
+| :------ |  
+| Jizheng Chen, Kounianhua Du, **Jianghao Lin**, Bo Chen, Ruiming Tang, Weinan Zhang. |  
+| CIKM 2024.  [Paper](https://arxiv.org/abs/2406.18825). |
 
 | **DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation** |
 | :------ |  
@@ -86,10 +91,15 @@ Selected Publications
 
 ### General Personalized Recommendation
 
+| **Retrieval-Oriented Knowledge for Click-Through Rate Prediction**|
+| :------ |  
+| Huanshuo Liu, Bo Chen, Menghui Zhu, **Jianghao Lin**, Jiarui Qin, Yang Yang, Hao Zhang, Ruiming Tang. |  
+| CIKM 2024. [Paper](https://arxiv.org/abs/2404.18304). |
+
 | **Behavior-Dependent Linear Recurrent Units for Efficient Sequential Recommendation**|
 | :------ |  
 | Chengkai Liu, **Jianghao Lin**, Jianling Wang, Hanzhou Liu, James Caverlee. |  
-| Arxiv Preprint. [Paper](https://arxiv.org/abs/2406.12580). |
+| CIKM 2024. [Paper](https://arxiv.org/abs/2406.12580). |
 
 | **Mamba4Rec: Towards Efficient Sequential Recommendation with Selective State Space Models**|
 | :------ |  
