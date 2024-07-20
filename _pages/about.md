@@ -99,12 +99,12 @@ Selected Publications
 | **Behavior-Dependent Linear Recurrent Units for Efficient Sequential Recommendation**|
 | :------ |  
 | Chengkai Liu, **Jianghao Lin**, Jianling Wang, Hanzhou Liu, James Caverlee. |  
-| CIKM 2024. [Paper](https://arxiv.org/abs/2406.12580). |
+| CIKM 2024. [Paper](https://arxiv.org/abs/2406.12580). [Code](https://github.com/chengkai-liu/RecBLR) |
 
 | **Mamba4Rec: Towards Efficient Sequential Recommendation with Selective State Space Models**|
 | :------ |  
 | Chengkai Liu, **Jianghao Lin**, Hanzhou Liu, Jianling Wang, James Caverlee. |  
-| Arxiv Preprint. [Paper](https://arxiv.org/abs/2403.03900). [Code](https://github.com/chengkai-liu/Mamba4Rec). |
+| RelKD@KDD 2024. [Paper](https://arxiv.org/abs/2403.03900). [Code](https://github.com/chengkai-liu/Mamba4Rec). |
 
 | **Invariant Graph Contrastive Learning for Mitigating Neighborhood Bias in Graph Neural Network based Recommender Systems**|
 | :------ |  
