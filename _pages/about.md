@@ -13,6 +13,8 @@ I am a PhD student at Shanghai Jiao Tong University, China. I am now pursuing Ph
 My research interests include machine learning and data mining, especially, deep learning, reinforcement learning and their applications in real-world data mining scenarios including recommender system and information retrieval.
 <!-- My research interests mainly focus on information retrieval and recommender systems. I seek to model user behaviors, better fulfill the user's information needs in online services, and debias the system to prevent it to generate harmful or offensive content. -->
 
+:grin: *I am also wrting weekly paper notes about latest LLM-enhanced RS at WeChat. Welcome to follow by scanning the [QR-Code](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys/blob/main/wechat_for_paper_notes.jpeg).*
+
 Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
