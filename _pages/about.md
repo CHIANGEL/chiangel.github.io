@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student at Shanghai Jiao Tong University, China. I am now pursuing PhD Degree at [APEX](http://apex.sjtu.edu.cn/) lab, advised by Prof. [Weinan Zhang](http://wnzhang.net) and Prof. [Yong Yu](http://apex.sjtu.edu.cn/members/yyu). I am also the member of Zhiyuan Honors Program during my stage of undergraduate.
+I am a PhD student at Shanghai Jiao Tong University, China. I am now pursuing PhD Degree at [APEX](http://apex.sjtu.edu.cn/) lab, advised by Prof. [Weinan Zhang](http://wnzhang.net) and Prof. [Yong Yu](http://apex.sjtu.edu.cn/members/yyu). I am also the member of Zhiyuan Honors Program (致远荣誉计划) during my stage of undergraduate. I am now a member of Wu Wen Jun Honorary Doctoral Program (吴文俊荣誉博士班), advised by Prof. [Cewu Lu](https://www.mvig.org/).
 
 My research interests include machine learning and data mining, especially, deep learning, reinforcement learning and their applications in real-world data mining scenarios including recommender system and information retrieval.
 <!-- My research interests mainly focus on information retrieval and recommender systems. I seek to model user behaviors, better fulfill the user's information needs in online services, and debias the system to prevent it to generate harmful or offensive content. -->
