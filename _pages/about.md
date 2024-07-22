@@ -13,12 +13,13 @@ I am a PhD student at Shanghai Jiao Tong University, China. I am now pursuing Ph
 My research interests include machine learning and data mining, especially, deep learning, reinforcement learning and their applications in real-world data mining scenarios including recommender system and information retrieval.
 <!-- My research interests mainly focus on information retrieval and recommender systems. I seek to model user behaviors, better fulfill the user's information needs in online services, and debias the system to prevent it to generate harmful or offensive content. -->
 
-:grin: *I am also wrting weekly paper notes about latest LLM-enhanced RS at WeChat. Welcome to follow by scanning the [QR-Code](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys/blob/main/wechat_for_paper_notes.jpeg).*
+*I am also wrting weekly paper notes about latest LLM-enhanced RS at WeChat. Welcome to follow by scanning the [QR-Code](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys/blob/main/wechat_for_paper_notes.jpeg).*
 
 Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
+- Jul., 2024. Two papers were accepted by [RecSys 2024](https://recsys.acm.org/recsys24/)
 - Jul., 2024. Five papers were accepted by [CIKM 2024](https://cikm2024.org/) (Accept Rate: 23.0%)
 - Jun., 2024. Our [survey paper](https://arxiv.org/abs/2306.05817) about LLM-enhanced RS was accepted by TOIS (CCF A).
 - Jun., 2024. Two papers were accepted by Frontiers of Computer Science (CCF-B)
@@ -84,12 +85,12 @@ Selected Publications
 | **FLIP: Towards Fine-grained Alignment between ID-based Models and Pretrained Language Models for CTR Prediction** |
 | :------ |  
 | Hangyu Wang<sup>*</sup>, **Jianghao Lin**<sup>*</sup>, Xiangyang Li, Bo Chen, Chenxu Zhu, Ruiming Tang, Weinan Zhang, Yong Yu. |  
-| Arxiv Preprint. Co-first Author. [Paper](https://arxiv.org/abs/2310.19453). 
+| RecSys 2024. Co-first Author. [Paper](https://arxiv.org/abs/2310.19453). 
 
 | **Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models**|
 | :------ |  
 | Yunjia Xi, Weiwen Liu, **Jianghao Lin**, Jieming Zhu, Bo Chen, Ruiming Tang, Weinan Zhang, Rui Zhang, Yong Yu. |  
-| DLP-RecSys 2023 (<font color=red>Best Paper Award</font>). [Paper](https://arxiv.org/abs/2306.10933). [Repo](https://github.com/YunjiaXi/Open-World-Knowledge-Augmented-Recommendation).
+| RecSys 2024. DLP-RecSys 2023 (<font color=red>Best Paper Award</font>). [Paper](https://arxiv.org/abs/2306.10933). [Code](https://github.com/YunjiaXi/Open-World-Knowledge-Augmented-Recommendation).
 
 ### General Personalized Recommendation
 
