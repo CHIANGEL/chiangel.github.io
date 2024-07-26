@@ -155,7 +155,7 @@ Selected Publications
 Academic Services
 ======
 - **Conference Review**: KDD, WWW, WSDM, CIKM
-- **Journal Review**: TKDE, TOIS, TORS, Frontier of Computer Science (FCS), Nature Science Report, Journal of Intelligent & Fuzzy Systems
+- **Journal Review**: TKDE, TOIS, TORS, TCYB, Frontier of Computer Science (FCS), Nature Science Report, Journal of Intelligent & Fuzzy Systems
 
 
 Internships
