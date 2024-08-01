@@ -94,6 +94,11 @@ Selected Publications
 
 ### General Personalized Recommendation
 
+| **A Comprehensive Survey on Retrieval Methods in Recommender Systems**|
+| :------ |  
+| Junjie Huang, Jizheng Chen, **Jianghao Lin**, Jiarui Qin, Ziming Feng, Weinan Zhang, Yong Yu. |  
+| Arxiv Preprint. [Paper](https://arxiv.org/abs/2407.21022). |
+
 | **Retrieval-Oriented Knowledge for Click-Through Rate Prediction**|
 | :------ |  
 | Huanshuo Liu, Bo Chen, Menghui Zhu, **Jianghao Lin**, Jiarui Qin, Yang Yang, Hao Zhang, Ruiming Tang. |  
