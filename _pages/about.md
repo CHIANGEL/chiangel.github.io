@@ -19,13 +19,14 @@ Email: chiangel [DOT] ljh [AT] gmail [DOT] com
 
 Recent News
 ======
+- Aug., 2024. Our [paper](https://arxiv.org/abs/2403.03900) Mamba4Rec wins the best paper award at RelKD-KDD 2024. 
 - Jul., 2024. Two papers were accepted by [RecSys 2024](https://recsys.acm.org/recsys24/)
 - Jul., 2024. Five papers were accepted by [CIKM 2024](https://cikm2024.org/) (Accept Rate: 23.0%)
 - Jun., 2024. Our [survey paper](https://arxiv.org/abs/2306.05817) about LLM-enhanced RS was accepted by TOIS (CCF A).
 - Jun., 2024. Two papers were accepted by Frontiers of Computer Science (CCF-B)
 - May., 2024. One paper was accepted by [KDD 2024](https://kdd2024.kdd.org/) (Accept Rate: 20.0%)
 - Jan., 2024. Three papers were accepted by [WWW 2024](https://www2024.thewebconf.org/) (Accept Rate: 20.2%)
-- Sep., 2023. Our [paper](https://arxiv.org/abs/2306.10933) wins the best paper award at DLP-RecSys 2023. 
+- Sep., 2023. Our [paper](https://arxiv.org/abs/2306.10933) KAR wins the best paper award at DLP-RecSys 2023. 
 - Jun., 2023. We release our [survey paper](https://arxiv.org/abs/2306.05817) and [awesome GitHub repo](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) for LLM-enhanced RS.
 - May, 2023. One paper was accepted by [KDD 2023](https://kdd.org/kdd2023/index.html) (Accept Rate: 22.1%).
 
@@ -112,7 +113,7 @@ Selected Publications
 | **Mamba4Rec: Towards Efficient Sequential Recommendation with Selective State Space Models**|
 | :------ |  
 | Chengkai Liu, **Jianghao Lin**, Hanzhou Liu, Jianling Wang, James Caverlee. |  
-| RelKD@KDD 2024. [Paper](https://arxiv.org/abs/2403.03900). [Code](https://github.com/chengkai-liu/Mamba4Rec). |
+| RelKD@KDD 2024 (<font color=red>Best Paper Award</font>). [Paper](https://arxiv.org/abs/2403.03900). [Code](https://github.com/chengkai-liu/Mamba4Rec). |
 
 | **Invariant Graph Contrastive Learning for Mitigating Neighborhood Bias in Graph Neural Network based Recommender Systems**|
 | :------ |  
@@ -177,7 +178,8 @@ Competition
 
 Honor and Awards
 ======
-- [2022.] Best Paper Award at DLP-RecSys 2023
+- [2024.] Best Paper Award at RelKD-KDD 2024
+- [2023.] Best Paper Award at DLP-RecSys 2023
 - [2021.] National Scholarship for Graduate Student
 - [2021.] Shanghai Outstanding Undergraduate
 - [2020.] Tang Lixin Scholarship ([certificate](https://chiangel.github.io/files/awards/2020-tang-lixin-scholarship.pdf)).
