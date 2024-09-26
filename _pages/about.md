@@ -118,7 +118,7 @@ Selected Publications
 | **Invariant Graph Contrastive Learning for Mitigating Neighborhood Bias in Graph Neural Network based Recommender Systems**|
 | :------ |  
 | Zhenyu Mu, **Jianghao Lin**, Xiaoyu Zhu, Weinan Zhang, Yong Yu. |  
-| ICANN 2024 (Full, Oral). |
+| ICANN 2024 (Full, Oral). [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-72344-5_10). |
 
 | **M-scan: A Multi-Scenario Causal-driven Adaptive Network for Recommendation**|
 | :------ |  
