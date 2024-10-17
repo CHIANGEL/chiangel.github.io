@@ -178,6 +178,7 @@ Competition
 
 Honor and Awards
 ======
+- [2024.] National Scholarship for Graduate Student
 - [2024.] Best Paper Award at RelKD-KDD 2024
 - [2023.] Best Paper Award at DLP-RecSys 2023
 - [2021.] National Scholarship for Graduate Student
