@@ -163,14 +163,6 @@ Academic Services
 - **Conference Review**: KDD, WWW, WSDM, CIKM
 - **Journal Review**: TKDE, TOIS, TORS, TCYB, Frontier of Computer Science (FCS), Nature Science Report, Journal of Intelligent & Fuzzy Systems
 
-
-Internships
-======
-- [Huawei Noah's Ark Lab](http://www.noahlab.com.hk/)
-  - Research Intern, Search & Recommendation Group, supervised by Ruiming Tang.
-  - Shenzhen, China.&ensp; Jul. 2020 - Jan. 2021
-  - Focus on user modeling and click models. Two paper accepted by WWW 2021 and SIGIR 2021.
-
 Competition
 ======
 - [2020.] Outstanding Winner (Top 0.14%), MCM/ICM 2020 ([certificate](https://chiangel.github.io/files/awards/2020-outstanding-winner-MCM.pdf)).
