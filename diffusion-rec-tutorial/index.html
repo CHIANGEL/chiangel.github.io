@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diffusion Models for Recommender Systems | KDD 2025 Tutorial</title>
+  <meta name="description" content="Official website for the KDD 2025 lecture‑style tutorial “Diffusion Models for Recommender Systems: From Content Distribution To Content Creation”." />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.0/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="icon" href="https://chiangel.github.io/favicon.ico" />
+</head>
+<body class="bg-gradient-to-b from-slate-50 to-white text-gray-800 leading-relaxed">
+
+<header class="bg-white/70 backdrop-blur shadow-sm sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-3">
+    <a href="https://chiangel.github.io" class="text-xl font-bold text-indigo-600">chiangel.github.io</a>
+    <nav class="space-x-4 text-sm font-medium">
+      <a href="#overview" class="hover:text-indigo-600">Overview</a>
+      <a href="#speakers" class="hover:text-indigo-600">Speakers</a>
+      <a href="#outline" class="hover:text-indigo-600">Outline</a>
+      <a href="#schedule" class="hover:text-indigo-600">Schedule</a>
+      <a href="#resources" class="hover:text-indigo-600">Resources</a>
+      <a href="#contact" class="hover:text-indigo-600">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+  <section id="hero" class="text-center pb-20">
+    <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-900 mb-4">
+      Diffusion Models for Recommender Systems
+    </h1>
+    <p class="text-lg sm:text-xl text-gray-700 italic mb-6">
+      From Content Distribution <span class="mx-2">→</span> Content Creation
+    </p>
+    <p class="text-base text-gray-600">
+      <strong>KDD 2025 Lecture‑Style Tutorial</strong><br />
+      <span class="text-indigo-600">August&nbsp;4, 2025&nbsp;· Toronto, Canada</span> (<a href="https://kdd2025.kdd.org" class="underline">KDD&nbsp;2025</a>)
+    </p>
+  </section>
+
+  <section id="overview" class="py-12 border-t border-gray-200">
+    <h2 class="text-2xl font-semibold text-gray-900 mb-4">Overview</h2>
+    <p class="mb-4">
+      Diffusion models have revolutionised generative imaging and audio, but their impact on
+      personalised recommendation has only recently started to unfold. In this tutorial we bridge
+      the gap between diffusion-based generation and classical collaborative filtering, presenting a
+      unifying view that treats <em>recommendation</em> as probabilistic denoising over user–item
+      interaction manifolds. We cover:
+    </p>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Score‑based formulations of user preference modelling</li>
+      <li>Conditional diffusion for multi‑modal item understanding</li>
+      <li>Diffusion‑driven <span class="font-medium">content creation</span> loops that close the gap between generation and ranking</li>
+      <li>Scalable training strategies on billion‑scale interaction logs</li>
+      <li>Open challenges at the intersection of recommendation, generative modelling, and copyright</li>
+    </ul>
+  </section>
+
+  <section id="speakers" class="py-12 border-t border-gray-200">
+    <h2 class="text-2xl font-semibold text-gray-900 mb-4">Speakers</h2>
+    <div class="grid sm:grid-cols-2 gap-8">
+      <!-- Speaker 1 -->
+      <div class="flex items-start space-x-4">
+        <img src="https://avatars.githubusercontent.com/u/000000?v=4" alt="Jianghao Lin" class="w-20 h-20 rounded-full shadow" />
+        <div>
+          <h3 class="text-lg font-medium text-gray-900">Jianghao&nbsp;Lin</h3>
+          <p class="text-sm text-gray-600">Antai College of Economics &amp; Management,<br />Shanghai&nbsp;Jiao&nbsp;Tong&nbsp;University</p>
+          <p class="text-sm text-gray-500">Assistant Professor · Focus on offline RL &amp; recommender systems.</p>
+        </div>
+      </div>
+      <!-- Speaker 2 Placeholder -->
+      <div class="flex items-start space-x-4">
+        <img src="https://via.placeholder.com/80x80.png?text=Photo" alt="Co‑Speaker" class="w-20 h-20 rounded-full shadow" />
+        <div>
+          <h3 class="text-lg font-medium text-gray-900">[Co‑Speaker&nbsp;Name]</h3>
+          <p class="text-sm text-gray-600">[Affiliation]</p>
+          <p class="text-sm text-gray-500">[Short&nbsp;bio placeholder]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="outline" class="py-12 border-t border-gray-200">
+    <h2 class="text-2xl font-semibold text-gray-900 mb-4">Detailed Outline</h2>
+    <ol class="list-decimal list-inside space-y-4">
+      <li><span class="font-medium">Primer on Diffusion Models</span> – score matching, SDE formulation, guidance techniques.</li>
+      <li><span class="font-medium">Bridging Diffusion &amp; Recommendation</span> – user–item graphs as noisy channels; denoising as ranking.</li>
+      <li><span class="font-medium">Architectures</span> – text/image encoders, cross‑attention fusion, time embedding tricks.</li>
+      <li><span class="font-medium">Training at Scale</span> – negative sampling vs. continuous noise, importance weighting, distributed optimisation.</li>
+      <li><span class="font-medium">Evaluation Protocols</span> – offline metrics, simulation with user behaviour models, human preference studies.</li>
+      <li><span class="font-medium">Content Creation Loop</span> – generating new items, online AB testing, feedback alignment.</li>
+      <li><span class="font-medium">Open Challenges</span> – safety, bias, IP issues, and next‑generation personalised creativity.</li>
+    </ol>
+  </section>
+
+  <section id="schedule" class="py-12 border-t border-gray-200">
+    <h2 class="text-2xl font-semibold text-gray-900 mb-4">Tentative Schedule (3 h)</h2>
+    <div class="overflow-x-auto">
+      <table class="min-w-full border border-gray-300 text-sm">
+        <thead class="bg-gray-50">
+          <tr>
+            <th class="px-4 py-2 text-left">Time (UTC‑4)</th>
+            <th class="px-4 py-2 text-left">Topic</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-t">
+            <td class="px-4 py-2 whitespace-nowrap">09:00‑09:10</td>
+            <td class="px-4 py-2">Welcome &amp; motivation</td>
+          </tr>
+          <tr class="border-t">
+            <td class="px-4 py-2">09:10‑09:40</td>
+            <td class="px-4 py-2">Primer on diffusion models</td>
+          </tr>
+          <tr class="border-t bg-gray-50">
+            <td class="px-4 py-2">09:40‑10:20</td>
+            <td class="px-4 py-2">Diffusion for recommendation</td>
+          </tr>
+          <tr class="border-t">
+            <td class="px-4 py-2">10:20‑10:30</td>
+            <td class="px-4 py-2">Break</td>
+          </tr>
+          <tr class="border-t">
+            <td class="px-4 py-2">10:30‑11:10</td>
+            <td class="px-4 py-2">Scalable training &amp; evaluation</td>
+          </tr>
+          <tr class="border-t bg-gray-50">
+            <td class="px-4 py-2">11:10‑11:40</td>
+            <td class="px-4 py-2">Content creation loop demo</td>
+          </tr>
+          <tr class="border-t">
+            <td class="px-4 py-2">11:40‑12:00</td>
+            <td class="px-4 py-2">Q&amp;A + discussion</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="resources" class="py-12 border-t border-gray-200">
+    <h2 class="text-2xl font-semibold text-gray-900 mb-4">Resources</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li><a href="https://github.com/chiangel/diffusion-rec-tutorial" class="text-indigo-600 hover:underline">Code repository</a> – runnable notebooks &amp; colab demos</li>
+      <li><a href="slides/DiffusionRecKDD2025.pdf" class="text-indigo-600 hover:underline">Lecture slides (PDF)</a> <span class="text-gray-500">(to be uploaded)</span></li>
+      <li><a href="reading_list.html" class="text-indigo-600 hover:underline">Reading list</a> – seminal papers &amp; recent advances</li>
+      <li><a href="https://huggingface.co/datasets?search=rec" class="text-indigo-600 hover:underline">Open datasets</a> – MovieLens‑1M, Amazon Books, LAION‑Rec, etc.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="py-12 border-t border-gray-200">
+    <h2 class="text-2xl font-semibold text-gray-900 mb-4">Contact</h2>
+    <p class="mb-2">For questions or collaboration proposals, feel free to reach us:</p>
+    <ul class="space-y-1">
+      <li>Email: <a href="mailto:jianghao.lin@sjtu.edu.cn" class="text-indigo-600 hover:underline">jianghao.lin@sjtu.edu.cn</a></li>
+      <li>GitHub: <a href="https://github.com/chiangel" class="text-indigo-600 hover:underline">github.com/chiangel</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="py-6 bg-gray-50 text-center text-sm text-gray-500 border-t">
+  © 2025 Jianghao Lin &amp; KDD 2025. Last updated 31&nbsp;May&nbsp;2025.
+</footer>
+
+</body>
+</html>
