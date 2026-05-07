@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Research works on OR-native AI in the LLM era, from optimization automation to innovation.">
+  <meta name="description"
+    content="Research works on OR-native AI in the LLM era, from optimization automation to innovation.">
   <title>From Optimization Automation to Innovation: Building OR-Native AI in the LLM Era</title>
   <style>
     :root {
@@ -228,13 +230,34 @@
       gap: 24px;
     }
 
+    .data-loading,
+    .data-error {
+      padding: 20px;
+      border: 1px solid var(--border);
+      background: var(--white);
+      color: var(--regular);
+      box-shadow: 0 8px 24px rgba(31, 45, 61, 0.05);
+    }
+
+    .data-error strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--accent);
+    }
+
+    .data-error code {
+      color: var(--ink);
+      background: #f1f3f6;
+      padding: 1px 4px;
+    }
+
     .stage {
       border: 1px solid var(--border);
       background: var(--white);
       box-shadow: 0 8px 24px rgba(31, 45, 61, 0.05);
     }
 
-    .stage > summary {
+    .stage>summary {
       display: grid;
       grid-template-columns: 44px minmax(0, 1fr) 76px;
       gap: 16px;
@@ -315,11 +338,11 @@
       transition: transform 0.16s ease;
     }
 
-    details:not([open]) > summary .caret::before {
+    details:not([open])>summary .caret::before {
       content: "Show";
     }
 
-    details[open] > summary .caret::after {
+    details[open]>summary .caret::after {
       transform: rotate(90deg);
     }
 
@@ -340,7 +363,7 @@
       background: var(--white);
     }
 
-    .work > summary {
+    .work>summary {
       display: grid;
       grid-template-columns: minmax(0, 1fr) 76px;
       gap: 14px;
@@ -404,7 +427,7 @@
       background: transparent;
     }
 
-    .abstract-toggle > summary {
+    .abstract-toggle>summary {
       display: grid;
       grid-template-columns: minmax(0, 1fr) 76px;
       align-items: center;
@@ -437,7 +460,7 @@
       flex: 0 0 auto;
     }
 
-    .abstract-toggle > summary::after {
+    .abstract-toggle>summary::after {
       content: "Expand";
       color: var(--secondary);
       font-size: 12px;
@@ -445,11 +468,11 @@
       justify-self: end;
     }
 
-    .abstract-toggle[open] > summary::after {
+    .abstract-toggle[open]>summary::after {
       content: "Collapse";
     }
 
-    .abstract-toggle[open] > summary {
+    .abstract-toggle[open]>summary {
       float: right;
       display: block;
       width: 76px;
@@ -539,14 +562,32 @@
       box-shadow: 0 8px 24px rgba(31, 45, 61, 0.05);
     }
 
-    .related-box p {
-      margin: 0 0 14px;
-      color: var(--regular);
+    .related-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 8px;
     }
 
     .related-link {
+      display: inline-grid;
+      gap: 2px;
       color: var(--iic-blue);
       font-weight: 650;
+      line-height: 1.35;
+    }
+
+    .related-name-cn {
+      color: var(--iic-blue);
+      font-size: 15px;
+      font-weight: 650;
+    }
+
+    .related-name-en {
+      color: var(--secondary);
+      font-size: 13px;
+      font-weight: 500;
     }
 
     footer {
@@ -574,7 +615,7 @@
         display: none;
       }
 
-      .stage > summary {
+      .stage>summary {
         grid-template-columns: 42px minmax(0, 1fr) 70px;
       }
 
@@ -623,7 +664,7 @@
         padding: 28px 16px 56px;
       }
 
-      .stage > summary {
+      .stage>summary {
         padding: 16px;
       }
 
@@ -631,7 +672,7 @@
         padding: 0 14px 14px;
       }
 
-      .work > summary {
+      .work>summary {
         padding: 14px;
       }
 
@@ -639,12 +680,12 @@
         padding: 14px;
       }
 
-      .abstract-toggle > summary {
+      .abstract-toggle>summary {
         grid-template-columns: minmax(0, 1fr) 66px;
         gap: 8px;
       }
 
-      .abstract-toggle[open] > summary {
+      .abstract-toggle[open]>summary {
         width: 66px;
       }
 
@@ -654,12 +695,14 @@
     }
   </style>
 </head>
+
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
 
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="#top" aria-label="From Optimization Automation to Innovation: Building OR-Native AI in the LLM Era">
+      <a class="brand" href="#top"
+        aria-label="From Optimization Automation to Innovation: Building OR-Native AI in the LLM Era">
         <span class="brand-mark">OR</span>
         <span>
           <span class="brand-title">Building OR-Native AI in the LLM Era</span>
@@ -685,406 +728,27 @@
   </section>
 
   <main id="content">
-    <div class="roadmap">
-      <details class="stage" id="automation" open>
-        <summary>
-          <span class="stage-number">1</span>
-          <span class="stage-copy">
-            <span class="stage-title">LLM for Optimization Automation</span>
-            <span class="stage-intro">This line of work turns natural-language decision problems into executable optimization formulations through domain training, solver-grounded reasoning, agent workflows, and scalable benchmarks.</span>
-          </span>
-          <span class="caret" aria-hidden="true">&gt;</span>
-        </summary>
-        <div class="stage-body">
-          <details class="work" open>
-            <summary>
-              <span class="work-heading">
-                <h2>ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling</h2>
-                <p class="authors">Chenyu Huang, Zhengyang Tang, Shixi Hu, Ruoqing Jiang, Xin Zheng, Dongdong Ge, Benyou Wang, and Zizhuo Wang.</p>
-                <p class="venue">Published at <em>Operations Research</em>, 2025.</p>
-              </span>
-              <span class="caret" aria-hidden="true">&gt;</span>
-            </summary>
-            <div class="work-body">
-              <div class="field">
-                <div class="field-label">TLDR</div>
-                <p>Trains open-source LLMs to write optimization formulations and solver code from problem descriptions.</p>
-              </div>
-              <div class="field">
-                <div class="field-label">Abstract</div>
-                <details class="abstract-toggle">
-                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Optimization modeling is essential for applying OR in practice but usually requires expert modeling knowledge. ORLM addresses the shortage of high-quality training data by introducing OR-Instruct, a semi-automated synthesis framework, and IndustryOR, an industrial benchmark. The trained 7B-scale ORLMs improve automated modeling across NL4Opt, MAMO, and IndustryOR, while the paper also discusses scaling, reinforcement learning, and industrial human-machine workflows.</span><span class="abstract-preview-dots">...</span></span></summary>
-                  <p class="abstract-text">Optimization modeling is essential for applying OR in practice but usually requires expert modeling knowledge. ORLM addresses the shortage of high-quality training data by introducing OR-Instruct, a semi-automated synthesis framework, and IndustryOR, an industrial benchmark. The trained 7B-scale ORLMs improve automated modeling across NL4Opt, MAMO, and IndustryOR, while the paper also discusses scaling, reinforcement learning, and industrial human-machine workflows.</p>
-                </details>
-              </div>
-              <div class="field">
-                <div class="field-label">Keywords</div>
-                <div class="keywords">
-                  <span class="keyword">OR-Instruct</span>
-                  <span class="keyword">IndustryOR</span>
-                  <span class="keyword">Open-source ORLMs</span>
-                  <span class="keyword">LP / MILP / NLP</span>
-                </div>
-              </div>
-              <div class="field">
-                <div class="field-label">Links</div>
-                <div class="links">
-                  <a href="https://pubsonline.informs.org/doi/10.1287/opre.2024.1233" target="_blank" rel="noopener">Paper</a>
-                  <a href="https://doi.org/10.1287/opre.2024.1233" target="_blank" rel="noopener">DOI</a>
-                  <a href="https://github.com/Cardinal-Operations/ORLM" target="_blank" rel="noopener">Code</a>
-                  <a href="https://github.com/Cardinal-Operations/ORLM" target="_blank" rel="noopener">Dataset</a>
-                  <a href="https://huggingface.co/CardinalOperations" target="_blank" rel="noopener">Model</a>
-                </div>
-              </div>
-            </div>
-          </details>
-
-          <details class="work" open>
-            <summary>
-              <span class="work-heading">
-                <h2>Auto-Formulating Dynamic Programming Problems with Large Language Models</h2>
-                <p class="authors">Chenyu Zhou, Jingyuan Yang, Linwei Xin, Yitian Chen, Ziyan He, and Dongdong Ge.</p>
-                <p class="venue">Major revision at <em>M&SOM</em>.</p>
-              </span>
-              <span class="caret" aria-hidden="true">&gt;</span>
-            </summary>
-            <div class="work-body">
-              <div class="field">
-                <div class="field-label">TLDR</div>
-                <p>Builds a specialized model and benchmark for auto-formulating dynamic programming problems.</p>
-              </div>
-              <div class="field">
-                <div class="field-label">Abstract</div>
-                <details class="abstract-toggle">
-                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Dynamic programming requires state, action, transition, and reward design, making it different from standard LP/MIP formulation. This work introduces DP-Bench for systematic evaluation and DPLM, a 7B specialized model. Its DualReflect data pipeline combines forward generation for diversity with backward generation for reliability, showing that the two modes are complementary across data regimes.</span><span class="abstract-preview-dots">...</span></span></summary>
-                  <p class="abstract-text">Dynamic programming requires state, action, transition, and reward design, making it different from standard LP/MIP formulation. This work introduces DP-Bench for systematic evaluation and DPLM, a 7B specialized model. Its DualReflect data pipeline combines forward generation for diversity with backward generation for reliability, showing that the two modes are complementary across data regimes.</p>
-                </details>
-              </div>
-              <div class="field">
-                <div class="field-label">Keywords</div>
-                <div class="keywords">
-                  <span class="keyword">DPLM</span>
-                  <span class="keyword">DP-Bench</span>
-                  <span class="keyword">DualReflect</span>
-                  <span class="keyword">Dynamic programming</span>
-                </div>
-              </div>
-              <div class="field">
-                <div class="field-label">Links</div>
-                <div class="links">
-                  <a href="https://arxiv.org/abs/2507.11737" target="_blank" rel="noopener">Paper</a>
-                  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5368011" target="_blank" rel="noopener">SSRN</a>
-                  <a href="https://arxiv.org/abs/2507.11737" target="_blank" rel="noopener">Benchmark</a>
-                </div>
-              </div>
-            </div>
-          </details>
-
-          <details class="work" open>
-            <summary>
-              <span class="work-heading">
-                <h2>Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling</h2>
-                <p class="authors">Yitian Chen, Jingfan Xia, Siyu Shao, Dongdong Ge, and Yinyu Ye.</p>
-                <p class="venue">Published at <em>NeurIPS</em>, 2025.</p>
-              </span>
-              <span class="caret" aria-hidden="true">&gt;</span>
-            </summary>
-            <div class="work-body">
-              <div class="field">
-                <div class="field-label">TLDR</div>
-                <p>Uses optimization solvers as verifiers to train LLMs with executable, feasible, objective-aware rewards.</p>
-              </div>
-              <div class="field">
-                <div class="field-label">Abstract</div>
-                <details class="abstract-toggle">
-                  <summary><span class="abstract-preview"><span class="abstract-preview-text">LLMs can automate formulation but often produce hallucinated or unusable models. SIRL applies reinforcement learning with verifiable reward by using external optimization solvers to assess executable code and LP-file representations. Solver feedback on syntax, feasibility, and solution quality becomes reward signal, and also supports self-consistency data synthesis. Experiments show strong improvements in accurate and executable optimization modeling.</span><span class="abstract-preview-dots">...</span></span></summary>
-                  <p class="abstract-text">LLMs can automate formulation but often produce hallucinated or unusable models. SIRL applies reinforcement learning with verifiable reward by using external optimization solvers to assess executable code and LP-file representations. Solver feedback on syntax, feasibility, and solution quality becomes reward signal, and also supports self-consistency data synthesis. Experiments show strong improvements in accurate and executable optimization modeling.</p>
-                </details>
-              </div>
-              <div class="field">
-                <div class="field-label">Keywords</div>
-                <div class="keywords">
-                  <span class="keyword">RLVR</span>
-                  <span class="keyword">Solver feedback</span>
-                  <span class="keyword">SIRL-Qwen2.5-7B</span>
-                  <span class="keyword">SIRL-Qwen2.5-32B</span>
-                </div>
-              </div>
-              <div class="field">
-                <div class="field-label">Links</div>
-                <div class="links">
-                  <a href="https://arxiv.org/abs/2505.11792" target="_blank" rel="noopener">Paper</a>
-                  <a href="https://github.com/Cardinal-Operations/SIRL" target="_blank" rel="noopener">Code</a>
-                  <a href="https://huggingface.co/chenyitian-shanshu/SIRL" target="_blank" rel="noopener">7B Model</a>
-                  <a href="https://huggingface.co/chenyitian-shanshu/SIRL-Gurobi32B" target="_blank" rel="noopener">32B Model</a>
-                </div>
-              </div>
-            </div>
-          </details>
-
-          <details class="work" open>
-            <summary>
-              <span class="work-heading">
-                <h2>StepORLM: A Self-Evolving Framework with Generative Process Supervision for Operations Research Language Models</h2>
-                <p class="authors">Chenyu Zhou, Tianyi Xu, Jianghao Lin, and Dongdong Ge.</p>
-                <p class="venue">Published at <em>ICLR</em>, 2026.</p>
-              </span>
-              <span class="caret" aria-hidden="true">&gt;</span>
-            </summary>
-            <div class="work-body">
-              <div class="field">
-                <div class="field-label">TLDR</div>
-                <p>Aligns OR language models with holistic process critique rather than only final-answer rewards.</p>
-              </div>
-              <div class="field">
-                <div class="field-label">Abstract</div>
-                <details class="abstract-toggle">
-                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Outcome rewards can reinforce flawed reasoning, and local process rewards miss dependencies across modeling steps. StepORLM introduces a self-evolving framework with a policy model and a generative process reward model that improve together. It combines solver-based outcome verification with holistic GenPRM process evaluation and aligns the policy through W-DPO, establishing strong results across multiple OR benchmarks.</span><span class="abstract-preview-dots">...</span></span></summary>
-                  <p class="abstract-text">Outcome rewards can reinforce flawed reasoning, and local process rewards miss dependencies across modeling steps. StepORLM introduces a self-evolving framework with a policy model and a generative process reward model that improve together. It combines solver-based outcome verification with holistic GenPRM process evaluation and aligns the policy through W-DPO, establishing strong results across multiple OR benchmarks.</p>
-                </details>
-              </div>
-              <div class="field">
-                <div class="field-label">Keywords</div>
-                <div class="keywords">
-                  <span class="keyword">GenPRM</span>
-                  <span class="keyword">W-DPO</span>
-                  <span class="keyword">Process supervision</span>
-                  <span class="keyword">Self-evolution</span>
-                </div>
-              </div>
-              <div class="field">
-                <div class="field-label">Links</div>
-                <div class="links">
-                  <a href="https://arxiv.org/abs/2509.22558" target="_blank" rel="noopener">Paper</a>
-                  <a href="https://openreview.net/forum?id=BEA9tX2Q1W" target="_blank" rel="noopener">OpenReview</a>
-                  <a href="https://github.com/0xzhouchenyu/StepORLM" target="_blank" rel="noopener">Code</a>
-                </div>
-              </div>
-            </div>
-          </details>
-
-          <details class="work" open>
-            <summary>
-              <span class="work-heading">
-                <h2>From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling</h2>
-                <p class="authors">Jianghao Lin, Zi Ling, Chenyu Zhou, Tianyi Xu, Ruoqing Jiang, Zizhuo Wang, and Dongdong Ge.</p>
-                <p class="venue">Submitted to <em>Operations Research</em>.</p>
-              </span>
-              <span class="caret" aria-hidden="true">&gt;</span>
-            </summary>
-            <div class="work-body">
-              <div class="field">
-                <div class="field-label">TLDR</div>
-                <p>Combines multi-agent debate with reusable solver-verified memory for more reliable optimization modeling.</p>
-              </div>
-              <div class="field">
-                <div class="field-label">Abstract</div>
-                <details class="abstract-toggle">
-                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Agora-Opt addresses the difficulty of solving optimization modeling tasks from natural language by combining decentralized debate with a read-write memory bank. Multiple teams independently produce end-to-end solutions, reconcile disagreements through outcome-grounded debate, and store solver-verified artifacts and debate traces. The framework improves over strong zero-shot, training-centric, and prior agentic baselines while remaining flexible across model backbones.</span><span class="abstract-preview-dots">...</span></span></summary>
-                  <p class="abstract-text">Agora-Opt addresses the difficulty of solving optimization modeling tasks from natural language by combining decentralized debate with a read-write memory bank. Multiple teams independently produce end-to-end solutions, reconcile disagreements through outcome-grounded debate, and store solver-verified artifacts and debate traces. The framework improves over strong zero-shot, training-centric, and prior agentic baselines while remaining flexible across model backbones.</p>
-                </details>
-              </div>
-              <div class="field">
-                <div class="field-label">Keywords</div>
-                <div class="keywords">
-                  <span class="keyword">Decentralized debate</span>
-                  <span class="keyword">Read-write memory</span>
-                  <span class="keyword">Solver-verified artifacts</span>
-                  <span class="keyword">Agentic modeling</span>
-                </div>
-              </div>
-              <div class="field">
-                <div class="field-label">Links</div>
-                <div class="links">
-                  <a href="https://arxiv.org/abs/2604.25847" target="_blank" rel="noopener">Paper</a>
-                  <a href="https://github.com/CHIANGEL/Agora-Opt" target="_blank" rel="noopener">Code</a>
-                  <a href="https://github.com/CHIANGEL/Agora-Opt" target="_blank" rel="noopener">Dataset</a>
-                </div>
-              </div>
-            </div>
-          </details>
-
-          <details class="work" open>
-            <summary>
-              <span class="work-heading">
-                <h2>Large-Scale Optimization Model Auto-Formulation: Harnessing LLM Flexibility via Structured Workflow</h2>
-                <p class="authors">Kuo Liang, Yuhang Lu, Jianming Mao, Shuyi Sun, Chunwei Yang, Congcong Zeng, Xiao Jin, Hanzhang Qin, Ruihao Zhu, and Chung-Piaw Teo.</p>
-                <p class="venue">Submitted to <em>Operations Research</em>.</p>
-              </span>
-              <span class="caret" aria-hidden="true">&gt;</span>
-            </summary>
-            <div class="work-body">
-              <div class="field">
-                <div class="field-label">TLDR</div>
-                <p>Uses a structured agent workflow to formulate large-scale optimization models with external data inputs.</p>
-              </div>
-              <div class="field">
-                <div class="field-label">Abstract</div>
-                <details class="abstract-toggle">
-                  <summary><span class="abstract-preview"><span class="abstract-preview-text">LEAN-LLM-OPT targets labor-intensive large-scale optimization formulation by orchestrating LLM agents over a problem description and associated datasets. Upstream agents construct a stepwise workflow based on similar problems, while a downstream agent follows that workflow to produce the final formulation. The design reduces planning and data-handling burden, performs strongly in simulations, and introduces Large-Scale-OR and Air-NRM for large-scale optimization auto-formulation.</span><span class="abstract-preview-dots">...</span></span></summary>
-                  <p class="abstract-text">LEAN-LLM-OPT targets labor-intensive large-scale optimization formulation by orchestrating LLM agents over a problem description and associated datasets. Upstream agents construct a stepwise workflow based on similar problems, while a downstream agent follows that workflow to produce the final formulation. The design reduces planning and data-handling burden, performs strongly in simulations, and introduces Large-Scale-OR and Air-NRM for large-scale optimization auto-formulation.</p>
-                </details>
-              </div>
-              <div class="field">
-                <div class="field-label">Keywords</div>
-                <div class="keywords">
-                  <span class="keyword">LEAN-LLM-OPT</span>
-                  <span class="keyword">Large-Scale-OR</span>
-                  <span class="keyword">Air-NRM</span>
-                  <span class="keyword">Structured workflow</span>
-                </div>
-              </div>
-              <div class="field">
-                <div class="field-label">Links</div>
-                <div class="links">
-                  <a href="https://arxiv.org/abs/2601.09635" target="_blank" rel="noopener">Paper</a>
-                  <a href="https://github.com/CoraLiang01/lean-llm-opt" target="_blank" rel="noopener">Code</a>
-                  <a href="https://github.com/CoraLiang01/lean-llm-opt" target="_blank" rel="noopener">Dataset</a>
-                </div>
-              </div>
-            </div>
-          </details>
-
-          <details class="work" open>
-            <summary>
-              <span class="work-heading">
-                <h2>OPT-Engine: Benchmarking the Limits of LLMs in Optimization Modeling via Complexity Scaling</h2>
-                <p class="authors">Yitian Chen, Cheng Cheng, Yinan Sun, Zi Ling, and Dongdong Ge.</p>
-                <p class="venue">Accepted by <em>ICML</em>, 2026.</p>
-              </span>
-              <span class="caret" aria-hidden="true">&gt;</span>
-            </summary>
-            <div class="work-body">
-              <div class="field">
-                <div class="field-label">TLDR</div>
-                <p>Builds a controllable benchmark engine to diagnose where LLMs fail as optimization tasks scale.</p>
-              </div>
-              <div class="field">
-                <div class="field-label">Abstract</div>
-                <details class="abstract-toggle">
-                  <summary><span class="abstract-preview"><span class="abstract-preview-text">OPT-Engine studies the boundaries of LLM capability in automated optimization modeling. It provides an extensible benchmark framework with controllable and scalable difficulty across ten canonical OR tasks, including LP and MIP families. Experiments analyze robustness under out-of-distribution complexity and identify major bottlenecks, showing that tool-integrated reasoning remains more robust while constraint formulation is a central failure point.</span><span class="abstract-preview-dots">...</span></span></summary>
-                  <p class="abstract-text">OPT-Engine studies the boundaries of LLM capability in automated optimization modeling. It provides an extensible benchmark framework with controllable and scalable difficulty across ten canonical OR tasks, including LP and MIP families. Experiments analyze robustness under out-of-distribution complexity and identify major bottlenecks, showing that tool-integrated reasoning remains more robust while constraint formulation is a central failure point.</p>
-                </details>
-              </div>
-              <div class="field">
-                <div class="field-label">Keywords</div>
-                <div class="keywords">
-                  <span class="keyword">OPT-Engine</span>
-                  <span class="keyword">Complexity scaling</span>
-                  <span class="keyword">LP / MIP tasks</span>
-                  <span class="keyword">Constraint diagnosis</span>
-                </div>
-              </div>
-              <div class="field">
-                <div class="field-label">Links</div>
-                <div class="links">
-                  <a href="https://arxiv.org/abs/2601.19924" target="_blank" rel="noopener">Paper</a>
-                  <a href="https://github.com/Cardinal-Operations/OPTEngine" target="_blank" rel="noopener">Code</a>
-                  <a href="https://github.com/Cardinal-Operations/OPTEngine" target="_blank" rel="noopener">Benchmark</a>
-                </div>
-              </div>
-            </div>
-          </details>
-        </div>
-      </details>
-
-      <details class="stage" id="innovation" open>
-        <summary>
-          <span class="stage-number">2</span>
-          <span class="stage-copy">
-            <span class="stage-title">LLM for Optimization Innovation</span>
-            <span class="stage-intro">This line of work uses LLMs not only to formulate known models, but to discover deployable policies and inject organizational memory into analytics workflows.</span>
-          </span>
-          <span class="caret" aria-hidden="true">&gt;</span>
-        </summary>
-        <div class="stage-body">
-          <details class="work" open>
-            <summary>
-              <span class="work-heading">
-                <h2>AlphaInventory: Evolving White-Box Inventory Policies via Large Language Models with Deployment Guarantees</h2>
-                <p class="authors">Chenyu Huang, Jianghao Lin, Zhengyang Tang, Bo Jiang, Ruoqing Jiang, Benyou Wang, and Lai Wei.</p>
-                <p class="venue">Working in progress.</p>
-              </span>
-              <span class="caret" aria-hidden="true">&gt;</span>
-            </summary>
-            <div class="work-body">
-              <div class="field">
-                <div class="field-label">TLDR</div>
-                <p>Evolves interpretable inventory policies and deploys only statistically certified improvements.</p>
-              </div>
-              <div class="field">
-                <div class="field-label">Abstract</div>
-                <details class="abstract-toggle">
-                  <summary><span class="abstract-preview"><span class="abstract-preview-text">AlphaInventory adapts LLM-based evolutionary search to online, non-stationary inventory settings. The framework trains an LLM with reinforcement learning, uses demand as well as numerical and textual features, and generates white-box policies screened by confidence-interval certification. A theoretical interface connects training, inference, and deployment, while experiments on synthetic and retail data show gains over classical and deep-learning baselines.</span><span class="abstract-preview-dots">...</span></span></summary>
-                  <p class="abstract-text">AlphaInventory adapts LLM-based evolutionary search to online, non-stationary inventory settings. The framework trains an LLM with reinforcement learning, uses demand as well as numerical and textual features, and generates white-box policies screened by confidence-interval certification. A theoretical interface connects training, inference, and deployment, while experiments on synthetic and retail data show gains over classical and deep-learning baselines.</p>
-                </details>
-              </div>
-              <div class="field">
-                <div class="field-label">Keywords</div>
-                <div class="keywords">
-                  <span class="keyword">White-box policies</span>
-                  <span class="keyword">Inventory control</span>
-                  <span class="keyword">Confidence intervals</span>
-                  <span class="keyword">Deployment guarantees</span>
-                </div>
-              </div>
-              <div class="field">
-                <div class="field-label">Links</div>
-                <div class="links">
-                  <a href="https://arxiv.org/abs/2605.00369" target="_blank" rel="noopener">Paper</a>
-                </div>
-              </div>
-            </div>
-          </details>
-
-          <details class="work" open>
-            <summary>
-              <span class="work-heading">
-                <h2>Infusing Organizational Memory in Marketing Analytics with LLM-Enhanced AutoML</h2>
-                <p class="authors">Lin Lei, Chenyu Huang, Wenzhe Mao, Dongdong Ge, and P. K. Kannan.</p>
-                <p class="venue">Submitted to <em>Production and Operations Management</em>.</p>
-              </span>
-              <span class="caret" aria-hidden="true">&gt;</span>
-            </summary>
-            <div class="work-body">
-              <div class="field">
-                <div class="field-label">TLDR</div>
-                <p>Builds organizational memory into AutoML so marketing analytics can reuse prior project knowledge.</p>
-              </div>
-              <div class="field">
-                <div class="field-label">Abstract</div>
-                <details class="abstract-toggle">
-                  <summary><span class="abstract-preview"><span class="abstract-preview-text">LAKN addresses loss of organizational know-how in marketing analytics by pairing AutoML with LLM-driven knowledge reuse. It learns from prior projects to surface context-rich features, modeling choices, and explanations for new prediction and diagnostic tasks. Across real-world engagements and comparisons with automated baselines and analysts, the methodology aims to improve accuracy, reduce rework, preserve interpretability, and create economic value.</span><span class="abstract-preview-dots">...</span></span></summary>
-                  <p class="abstract-text">LAKN addresses loss of organizational know-how in marketing analytics by pairing AutoML with LLM-driven knowledge reuse. It learns from prior projects to surface context-rich features, modeling choices, and explanations for new prediction and diagnostic tasks. Across real-world engagements and comparisons with automated baselines and analysts, the methodology aims to improve accuracy, reduce rework, preserve interpretability, and create economic value.</p>
-                </details>
-              </div>
-              <div class="field">
-                <div class="field-label">Keywords</div>
-                <div class="keywords">
-                  <span class="keyword">Organizational memory</span>
-                  <span class="keyword">LLM-enhanced AutoML</span>
-                  <span class="keyword">Marketing analytics</span>
-                  <span class="keyword">Knowledge-driven features</span>
-                </div>
-              </div>
-              <div class="field">
-                <div class="field-label">Links</div>
-                <div class="links">
-                  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5648891" target="_blank" rel="noopener">Paper</a>
-                  <a href="https://doi.org/10.2139/ssrn.5648891" target="_blank" rel="noopener">DOI</a>
-                </div>
-              </div>
-            </div>
-          </details>
-        </div>
-      </details>
+    <div class="roadmap" id="roadmap-root" data-source="research-works.json">
+      <div class="data-loading">Loading research works...</div>
     </div>
 
     <section class="related" id="links">
       <h2>Related Links</h2>
       <div class="related-box">
-        <p>Additional related links will be added here.</p>
-        <a class="related-link" href="#" aria-label="Related link placeholder">Link to be added</a>
+        <ul class="related-list">
+          <li>
+            <a class="related-link" href="https://iic.sjtu.edu.cn/" target="_blank" rel="noopener">
+              <span class="related-name-cn">上海交通大学智能计算研究院</span>
+              <span class="related-name-en">Institute of Intelligent Computing, Shanghai Jiao Tong University</span>
+            </a>
+          </li>
+          <li>
+            <a class="related-link" href="https://www.shanshu.ai/" target="_blank" rel="noopener">
+              <span class="related-name-cn">杉数科技</span>
+              <span class="related-name-en">Cardinal Operations</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
@@ -1095,5 +759,130 @@
       <div>Static HTML. Last link review: May 2026.</div>
     </div>
   </footer>
+
+  <script>
+    const roadmapRoot = document.getElementById("roadmap-root");
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#39;");
+    }
+
+    function joinAuthors(authors) {
+      if (!Array.isArray(authors) || authors.length === 0) return "";
+      if (authors.length === 1) return `${authors[0]}.`;
+      if (authors.length === 2) return `${authors[0]} and ${authors[1]}.`;
+      return `${authors.slice(0, -1).join(", ")}, and ${authors.at(-1)}.`;
+    }
+
+    function renderStatus(status) {
+      if (!status) return "";
+      if (status.text) return escapeHtml(status.text);
+      return `${escapeHtml(status.prefix)} <em>${escapeHtml(status.emphasis)}</em>${escapeHtml(status.suffix)}`;
+    }
+
+    function renderField(label, html) {
+      return [
+        '<div class="field">',
+        `<div class="field-label">${escapeHtml(label)}</div>`,
+        html,
+        "</div>"
+      ].join("");
+    }
+
+    function renderLinks(links) {
+      return [
+        '<div class="links">',
+        ...(links || []).map((link) => (
+          `<a href="${escapeHtml(link.url)}" target="_blank" rel="noopener">${escapeHtml(link.label)}</a>`
+        )),
+        "</div>"
+      ].join("");
+    }
+
+    function renderKeywords(keywords) {
+      return [
+        '<div class="keywords">',
+        ...(keywords || []).map((keyword) => `<span class="keyword">${escapeHtml(keyword)}</span>`),
+        "</div>"
+      ].join("");
+    }
+
+    function renderAbstract(abstract) {
+      const safeAbstract = escapeHtml(abstract);
+      return [
+        '<details class="abstract-toggle">',
+        '<summary><span class="abstract-preview"><span class="abstract-preview-text">',
+        safeAbstract,
+        '</span><span class="abstract-preview-dots">...</span></span></summary>',
+        `<p class="abstract-text">${safeAbstract}</p>`,
+        "</details>"
+      ].join("");
+    }
+
+    function renderWork(work) {
+      return [
+        `<details class="work" id="${escapeHtml(work.id)}" open>`,
+        "<summary>",
+        '<span class="work-heading">',
+        `<h2>${escapeHtml(work.title)}</h2>`,
+        `<p class="authors">${escapeHtml(joinAuthors(work.authors))}</p>`,
+        `<p class="venue">${renderStatus(work.status)}</p>`,
+        "</span>",
+        '<span class="caret" aria-hidden="true">&gt;</span>',
+        "</summary>",
+        '<div class="work-body">',
+        renderField("TLDR", `<p>${escapeHtml(work.tldr)}</p>`),
+        renderField("Abstract", renderAbstract(work.abstract)),
+        renderField("Keywords", renderKeywords(work.keywords)),
+        renderField("Links", renderLinks(work.links)),
+        "</div>",
+        "</details>"
+      ].join("");
+    }
+
+    function renderStage(stage) {
+      return [
+        `<details class="stage" id="${escapeHtml(stage.id)}" open>`,
+        "<summary>",
+        `<span class="stage-number">${escapeHtml(stage.number)}</span>`,
+        '<span class="stage-copy">',
+        `<span class="stage-title">${escapeHtml(stage.title)}</span>`,
+        `<span class="stage-intro">${escapeHtml(stage.intro)}</span>`,
+        "</span>",
+        '<span class="caret" aria-hidden="true">&gt;</span>',
+        "</summary>",
+        '<div class="stage-body">',
+        ...(stage.works || []).map(renderWork),
+        "</div>",
+        "</details>"
+      ].join("");
+    }
+
+    async function loadResearchWorks() {
+      try {
+        const response = await fetch(roadmapRoot.dataset.source, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        roadmapRoot.innerHTML = (data.stages || []).map(renderStage).join("");
+      } catch (error) {
+        roadmapRoot.innerHTML = [
+          '<div class="data-error">',
+          "<strong>Research data could not be loaded.</strong>",
+          "<div>This page now reads paper information from <code>research-works.json</code>. ",
+          "If you are opening the HTML with <code>file://</code>, run it through a local static server before previewing.</div>",
+          "</div>"
+        ].join("");
+        console.error(error);
+      }
+    }
+
+    loadResearchWorks();
+  </script>
 </body>
+
 </html>
