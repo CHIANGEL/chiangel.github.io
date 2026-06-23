@@ -25,7 +25,7 @@ BODY {
 }
 
 #content {
-    BACKGROUND: #white;
+    BACKGROUND: #fff;
     PADDING-BOTTOM: 50px;
     PADDING-TOP: 20px;
     PADDING-LEFT: 50px;
@@ -47,7 +47,7 @@ H2 {
 }
 
 H3 {
-    DISPLAY: bold
+    FONT-WEIGHT: bold
 }
 
 P {
