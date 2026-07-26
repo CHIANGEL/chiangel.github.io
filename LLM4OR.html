@@ -6,7 +6,572 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
     content="Research works on OR-native AI in the LLM era, from optimization automation to innovation.">
+  <link rel="canonical" href="https://linjianghao.com/LLM4OR.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LLM4OR Research Collection">
+  <meta property="og:title"
+    content="From Optimization Automation to Innovation: Building OR-Native AI in the LLM Era">
+  <meta property="og:description"
+    content="Research works on OR-native AI in the LLM era, from optimization automation to innovation.">
+  <meta property="og:url" content="https://linjianghao.com/LLM4OR.html">
+  <meta property="og:image" content="https://iic.sjtu.edu.cn/_nuxt/banner.Bwirtux6.png">
+  <meta property="og:image:width" content="1920">
+  <meta property="og:image:height" content="364">
+  <meta property="og:image:alt" content="Institute of Intelligent Computing, Shanghai Jiao Tong University">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title"
+    content="From Optimization Automation to Innovation: Building OR-Native AI in the LLM Era">
+  <meta name="twitter:description"
+    content="Research works on OR-native AI in the LLM era, from optimization automation to innovation.">
+  <meta name="twitter:image" content="https://iic.sjtu.edu.cn/_nuxt/banner.Bwirtux6.png">
   <title>From Optimization Automation to Innovation: Building OR-Native AI in the LLM Era</title>
+  <!-- RESEARCH_JSON_LD_START -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://linjianghao.com/LLM4OR.html#collection",
+          "url": "https://linjianghao.com/LLM4OR.html",
+          "name": "From Optimization Automation to Innovation: Building OR-Native AI in the LLM Era",
+          "description": "Research works on OR-native AI in the LLM era, from optimization automation to innovation.",
+          "inLanguage": "en",
+          "creator": {
+            "@id": "https://linjianghao.com/LLM4OR.html#organization"
+          },
+          "editor": {
+            "@id": "https://linjianghao.com/#jianghao-lin"
+          },
+          "mainEntity": {
+            "@id": "https://linjianghao.com/LLM4OR.html#research-works"
+          },
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "Large Language Models"
+            },
+            {
+              "@type": "Thing",
+              "name": "Operations Research"
+            },
+            {
+              "@type": "Thing",
+              "name": "OR-Native AI"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://linjianghao.com/LLM4OR.html#organization",
+          "name": "Institute of Intelligent Computing, Shanghai Jiao Tong University",
+          "alternateName": "IIC@SJTU",
+          "url": "https://iic.sjtu.edu.cn/"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://linjianghao.com/#jianghao-lin",
+          "name": "Jianghao Lin",
+          "url": "https://linjianghao.com/",
+          "affiliation": {
+            "@id": "https://linjianghao.com/LLM4OR.html#organization"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://linjianghao.com/LLM4OR.html#research-works",
+          "name": "LLM4OR Research Works",
+          "numberOfItems": 10,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "@id": "https://linjianghao.com/LLM4OR.html#orlm",
+                "url": "https://linjianghao.com/LLM4OR.html#orlm",
+                "name": "ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling",
+                "author": [
+                  {
+                    "@type": "Person",
+                    "name": "Chenyu Huang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Zhengyang Tang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Shixi Hu"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Ruoqing Jiang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Xin Zheng"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Dongdong Ge"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Benyou Wang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Zizhuo Wang"
+                  }
+                ],
+                "abstract": "Optimization modeling is central to applying operations research in real-world decision problems, but it often requires expert knowledge and substantial manual effort. ORLM proposes a practical path for training open-source LLMs to formulate optimization models and generate solver code. The paper introduces OR-Instruct, a semi-automated data synthesis framework for optimization modeling, and IndustryOR, an industrial benchmark for evaluating LLMs on practical OR problems. Experiments show that 7B-scale ORLMs trained on synthesized data substantially improve performance on NL4Opt, MAMO, and IndustryOR, while the paper also studies scaling, reinforcement learning, and human-machine workflows for industrial deployment.",
+                "keywords": [
+                  "Machine Learning and Data Science",
+                  "Automated Optimization Modeling",
+                  "Large Language Models",
+                  "Synthetic Data"
+                ],
+                "isPartOf": {
+                  "@id": "https://linjianghao.com/LLM4OR.html#collection"
+                },
+                "sameAs": "https://pubsonline.informs.org/doi/10.1287/opre.2024.1233"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "@id": "https://linjianghao.com/LLM4OR.html#dplm",
+                "url": "https://linjianghao.com/LLM4OR.html#dplm",
+                "name": "Auto-Formulating Dynamic Programming Problems with Large Language Models",
+                "author": [
+                  {
+                    "@type": "Person",
+                    "name": "Chenyu Zhou"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Jingyuan Yang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Linwei Xin"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Yitian Chen"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Ziyan He"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Dongdong Ge"
+                  }
+                ],
+                "abstract": "Dynamic programming (DP) is a fundamental method in operations research, but formulating DP models has traditionally required expert knowledge of both the problem context and DP techniques. Large Language Models (LLMs) offer the potential to automate this process. However, DP problems pose unique challenges due to their inherently stochastic transitions and the limited availability of training data. These factors make it difficult to directly apply existing LLM-based models or frameworks developed for other optimization problems, such as linear or integer programming. We introduce DP-Bench, the first benchmark covering a wide range of textbook-level DP problems to enable systematic evaluation. We present Dynamic Programming Language Model (DPLM), a 7B-parameter specialized model that achieves performance comparable to state-of-the-art LLMs like OpenAI's o1 and DeepSeek-R1, and surpasses them on hard problems. Central to DPLM's effectiveness is DualReflect, our novel synthetic data generation pipeline, designed to scale up training data from a limited set of initial examples. DualReflect combines forward generation for diversity and backward generation for reliability. Our results reveal a key insight: backward generation is favored in low-data regimes for its strong correctness guarantees, while forward generation, though lacking such guarantees, becomes increasingly valuable at scale for introducing diverse formulations. This trade-off highlights the complementary strengths of both approaches and the importance of combining them.",
+                "keywords": [
+                  "Dynamic Programming",
+                  "Operations Research",
+                  "Large Language Models",
+                  "Auto-Formulation"
+                ],
+                "isPartOf": {
+                  "@id": "https://linjianghao.com/LLM4OR.html#collection"
+                },
+                "sameAs": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5350161"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "@id": "https://linjianghao.com/LLM4OR.html#sirl",
+                "url": "https://linjianghao.com/LLM4OR.html#sirl",
+                "name": "Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling",
+                "author": [
+                  {
+                    "@type": "Person",
+                    "name": "Yitian Chen"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Jingfan Xia"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Siyu Shao"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Dongdong Ge"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Yinyu Ye"
+                  }
+                ],
+                "abstract": "Optimization modeling is fundamental to decision-making across diverse domains. Despite progress in automating optimization formulation from natural language descriptions, Large Language Models (LLMs) often struggle to generate formally correct and usable models against hallucinations, posing a challenge for reliable automation. Inspired by the success of Reinforcement Learning (RL) in enhancing Large Reasoning Models, we present Solver-Informed Reinforcement Learning (SIRL), a novel framework that significantly improves the authenticity of LLMs for optimization modeling using Reinforcement Learning with Verifiable Reward by leveraging external optimization solvers as verifiers. These verifiers automatically assess the executable code and the instance-level mathematical model represented by the associated LP file, yielding precise and comprehensive feedback signals -- including syntax, feasibility, and solution quality, serving as direct rewards for the RL process. This automated verification process, particularly from classic optimization solvers, also underpins our instance-enhanced self-consistency method to synthesize high-quality training data. Extensive experiments on diverse public benchmarks demonstrate that SIRL achieves state-of-the-art performance, substantially outperforming existing methods in generating accurate and executable optimization models. Our code is publicly available at https://github.com/Cardinal-Operations/SIRL.",
+                "keywords": [
+                  "RLVR",
+                  "Solver Feedback",
+                  "Outcome Reward",
+                  "Reinforcement Learning"
+                ],
+                "isPartOf": {
+                  "@id": "https://linjianghao.com/LLM4OR.html#collection"
+                },
+                "sameAs": "https://arxiv.org/abs/2505.11792"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "@id": "https://linjianghao.com/LLM4OR.html#steporlm",
+                "url": "https://linjianghao.com/LLM4OR.html#steporlm",
+                "name": "StepORLM: A Self-Evolving Framework with Generative Process Supervision for Operations Research Language Models",
+                "author": [
+                  {
+                    "@type": "Person",
+                    "name": "Chenyu Zhou"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Tianyi Xu"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Jianghao Lin"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Dongdong Ge"
+                  }
+                ],
+                "abstract": "Large Language Models (LLMs) have shown promising capabilities for solving Operations Research (OR) problems. While reinforcement learning serves as a powerful paradigm for LLM training on OR problems, existing works generally face two key limitations. First, outcome reward suffers from the credit assignment problem, where correct final answers can reinforce flawed reasoning. Second, conventional discriminative process supervision is myopic, failing to evaluate the interdependent steps of OR modeling holistically. To this end, we introduce StepORLM, a novel self-evolving framework with generative process supervision. At its core, StepORLM features a co-evolutionary loop where a policy model and a generative process reward model (GenPRM) iteratively improve on each other. This loop is driven by a dual-feedback mechanism: definitive, outcome-based verification from an external solver, and nuanced, holistic process evaluation from the GenPRM. The combined signal is used to align the policy via Weighted Direct Preference Optimization (W-DPO) and simultaneously refine the GenPRM. Our resulting 8B-parameter StepORLM establishes a new state-of-the-art across six benchmarks, significantly outperforming vastly larger generalist models, agentic methods, and specialized baselines. Moreover, the co-evolved GenPRM is able to act as a powerful and universally applicable process verifier, substantially boosting the inference scaling performance of both our own model and other existing LLMs.",
+                "keywords": [
+                  "Operations Research",
+                  "Large Language Models",
+                  "Process Supervision",
+                  "Reinforcement Learning",
+                  "Inference Scaling"
+                ],
+                "isPartOf": {
+                  "@id": "https://linjianghao.com/LLM4OR.html#collection"
+                },
+                "sameAs": "https://arxiv.org/abs/2509.22558"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "@id": "https://linjianghao.com/LLM4OR.html#agora-opt",
+                "url": "https://linjianghao.com/LLM4OR.html#agora-opt",
+                "name": "From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling",
+                "author": [
+                  {
+                    "@type": "Person",
+                    "name": "Jianghao Lin"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Zi Ling"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Chenyu Zhou"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Tianyi Xu"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Ruoqing Jiang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Zizhuo Wang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Dongdong Ge"
+                  }
+                ],
+                "abstract": "Optimization modeling underpins real-world decision-making in logistics, manufacturing, energy, and public services, but reliably solving such problems from natural-language requirements remains challenging for current large language models (LLMs). In this paper, we propose \\emph{Agora-Opt}, a modular agentic framework for optimization modeling that combines decentralized debate with a read-write memory bank. Agora-Opt allows multiple agent teams to independently produce end-to-end solutions and reconcile them through an outcome-grounded debate protocol, while memory stores solver-verified artifacts and past disagreement resolutions to support training-free improvement over time. This design is flexible across both backbones and methods: it reduces base-model lock-in, transfers across different LLM families, and can be layered onto existing pipelines with minimal coupling. Across public benchmarks, Agora-Opt achieves the strongest overall performance among all compared methods, outperforming strong zero-shot LLMs, training-centric approaches, and prior agentic baselines. Further analyses show robust gains across backbone choices and component variants, and demonstrate that decentralized debate offers a structural advantage over centralized selection by enabling agents to refine candidate solutions through interaction and even recover correct formulations when all initial candidates are flawed. These results suggest that reliable optimization modeling benefits from combining collaborative cross-checking with reusable experience, and position Agora-Opt as a practical and extensible foundation for trustworthy optimization modeling assistance. Our code and data are available at https://github.com/CHIANGEL/Agora-Opt.",
+                "keywords": [
+                  "Large Language Models",
+                  "Optimization Modeling",
+                  "Agentic Debate",
+                  "Agentic Memory"
+                ],
+                "isPartOf": {
+                  "@id": "https://linjianghao.com/LLM4OR.html#collection"
+                },
+                "sameAs": "https://arxiv.org/abs/2604.25847"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "@id": "https://linjianghao.com/LLM4OR.html#lean-llm-opt",
+                "url": "https://linjianghao.com/LLM4OR.html#lean-llm-opt",
+                "name": "Large-Scale Optimization Model Auto-Formulation: Harnessing LLM Flexibility via Structured Workflow",
+                "author": [
+                  {
+                    "@type": "Person",
+                    "name": "Kuo Liang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Yuhang Lu"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Jianming Mao"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Shuyi Sun"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Chunwei Yang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Congcong Zeng"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Xiao Jin"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Hanzhang Qin"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Ruihao Zhu"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Chung-Piaw Teo"
+                  }
+                ],
+                "abstract": "Large-scale optimization is a key backbone of modern business decision-making. However, building these models is often labor-intensive and time-consuming. We address this by proposing LEAN-LLM-OPT, a LightwEight AgeNtic workflow construction framework for LLM-assisted large-scale OPTimization auto-formulation. LEAN-LLM-OPT takes as input a problem description together with associated datasets and orchestrates a team of LLM agents to produce an optimization formulation. Specifically, upon receiving a query, two upstream LLM agents dynamically construct a workflow that specifies, step-by-step, how optimization models for similar problems can be formulated. A downstream LLM agent then follows this workflow to generate the final output. The agentic workflow leverages common modeling practices to structure the modeling process into a sequence of sub-tasks, offloading mechanical data-handling operations to auxiliary tools. This reduces the LLM's burden in planning and data handling, allowing us to exploit its flexibility to address unstructured components. Extensive simulations show that LEAN-LLM-OPT, instantiated with GPT-4.1 and the open source gpt-oss-20B, achieves strong performance on large-scale optimization modeling tasks and is competitive with state-of-the-art approaches. In addition, in a Singapore Airlines choice-based revenue management use case, LEAN-LLM-OPT demonstrates practical value by achieving leading performance across a range of scenarios. Along the way, we introduce Large-Scale-OR and Air-NRM, the first comprehensive benchmarks for large-scale optimization auto-formulation. The code and data of this work is available at https://github.com/CoraLiang01/lean-llm-opt.",
+                "keywords": [
+                  "Large Language Models",
+                  "Few-Shot Learning",
+                  "Automated Optimization Modeling",
+                  "Airline Revenue Management"
+                ],
+                "isPartOf": {
+                  "@id": "https://linjianghao.com/LLM4OR.html#collection"
+                },
+                "sameAs": "https://arxiv.org/abs/2601.09635"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "@id": "https://linjianghao.com/LLM4OR.html#opt-engine",
+                "url": "https://linjianghao.com/LLM4OR.html#opt-engine",
+                "name": "OPT-Engine: Benchmarking the Limits of LLMs in Optimization Modeling via Complexity Scaling",
+                "author": [
+                  {
+                    "@type": "Person",
+                    "name": "Yitian Chen"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Cheng Cheng"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Yinan Sun"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Zi Ling"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Dongdong Ge"
+                  }
+                ],
+                "abstract": "We investigate the capabilities and scalability of Large Language Models (LLMs) in optimization modeling, a domain requiring structured reasoning and precise formulation. To this end, we introduce OPT-ENGINE, an extensible benchmark framework with quantifiable and controllable complexity. OPT-ENGINE spans ten canonical Operations Research problems, systematically scaling from Linear Programming to Mixed-Integer Programming, providing a structured environment to probe the limits of automated problem formulation and solving. Utilizing OPT-Engine, we address three pivotal research questions. First, we examine whether Pure-Text Reasoning (PTR) via classical Chain-of-Thought can efficiently tackle optimization tasks, finding that PTR suffers from a critical robustness gap as task complexity increases. Second, we examine whether integrating external computational tools can mitigate PTR's arithmetic weaknesses and improve performance. Our results indicate that while such tools help with local calculations, they still fail to adhere to global optimization constraints. Finally, we pinpoint that for the current SOTA paradigm, Solver-integrated Reasoning (SIR), the automated formulation of constraints represents the primary bottleneck. These findings clarify the limitations of current paradigms and provide a structured roadmap for developing next-generation LLMs for optimization modeling. We release our code and data to facilitate future research (https://github.com/Cardinal-Operations/OPTEngine).",
+                "keywords": [
+                  "OPT-Engine",
+                  "Complexity Scaling",
+                  "Constraint Diagnosis"
+                ],
+                "isPartOf": {
+                  "@id": "https://linjianghao.com/LLM4OR.html#collection"
+                },
+                "sameAs": "https://arxiv.org/abs/2601.19924"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "@id": "https://linjianghao.com/LLM4OR.html#or-space",
+                "url": "https://linjianghao.com/LLM4OR.html#or-space",
+                "name": "OR-Space: A Full-Lifecycle Workspace Benchmark for Industrial Optimization Agents",
+                "author": [
+                  {
+                    "@type": "Person",
+                    "name": "Chenyu Zhou"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Xinyun Lu"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Jiangyue Zhao"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Jianghao Lin"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Dongdong Ge"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Yinyu Ye"
+                  }
+                ],
+                "abstract": "Large language model (LLM) agents are increasingly used to assist with operations research (OR) modeling, yet existing OR-oriented benchmarks often reduce evaluation to one-shot translation from a self-contained problem statement into a mathematical formulation or solver program. Such settings abstract away two characteristics of real industrial OR workflows: persistent multi-artifact workspaces and multi-stage task lifecycles. We introduce OR-Space, a full-lifecycle workspace benchmark for evaluating industrial optimization agents across model construction, model revision, and grounded explanation. Each instance is an executable workspace containing business documents, structured data, optional code artifacts, solver outputs, and task-specific evaluators distributed across interdependent files. OR-Space defines three task modes: Build, where agents construct solver-ready optimization models from heterogeneous artifacts; Revise, where agents modify existing models under changing requirements or solver feedback while preserving valid prior logic; and Explain, where agents answer grounded questions about solutions, constraints, and business implications using evidence spread across workspace artifacts. By combining persistent workspaces with lifecycle-oriented tasks, OR-Space evaluates whether agents can perform reliable optimization work beyond end-to-end text generation. We describe the benchmark design, evaluation protocol, and quality-control pipeline, and position OR-Space as a benchmark for studying the reliability, failure modes, and practical readiness of LLM agents in industrial OR workflows.",
+                "keywords": [
+                  "Operations Research",
+                  "LLM Agents",
+                  "Industrial Optimization",
+                  "Workspace Benchmark",
+                  "Lifecycle Evaluation"
+                ],
+                "isPartOf": {
+                  "@id": "https://linjianghao.com/LLM4OR.html#collection"
+                },
+                "sameAs": "https://arxiv.org/abs/2605.28158"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "@id": "https://linjianghao.com/LLM4OR.html#invevolve",
+                "url": "https://linjianghao.com/LLM4OR.html#invevolve",
+                "name": "InvEvolve: Evolving White-Box Inventory Policies via Large Language Models with Performance Guarantees",
+                "author": [
+                  {
+                    "@type": "Person",
+                    "name": "Chenyu Huang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Jianghao Lin"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Zhengyang Tang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Bo Jiang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Ruoqing Jiang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Benyou Wang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Lai Wei"
+                  }
+                ],
+                "abstract": "We study how large language models can be used to generate inventory policies in online settings with non-stationary demand. Our work is motivated by recent advances in LLM-based evolutionary search, such as AlphaEvolve, which demonstrates strong performance on static and highly structured problems such as mathematical discovery, but is not directly suited to dynamic inventory settings with online updates. We propose InvEvolve, an end-to-end inventory policy evolution and inference framework grounded in confidence-interval-based certification. Built on a large language model trained via reinforcement learning, InvEvolve can process demand data together with additional numerical and textual features, and generates white-box inventory policies with statistical safety guarantees for future deployment. We further introduce a unified framework with theoretical guarantees that connects training, inference, and deployment. This allows us to derive a lower bound on the probability that InvEvolve evolves a statistically safe and improved policy, and to characterize the multi-period performance gap relative to the oracle-safe benchmark. Tested on both synthetic data and real-world retail data, InvEvolve outperforms classical inventory policies and deep-learning-based methods. In canonical inventory settings, it generates new policies that outperform existing benchmarks.",
+                "keywords": [
+                  "Inventory Management",
+                  "AlphaEvolve",
+                  "Large Language Model",
+                  "Reinforcement Learning"
+                ],
+                "isPartOf": {
+                  "@id": "https://linjianghao.com/LLM4OR.html#collection"
+                },
+                "sameAs": "https://arxiv.org/abs/2605.00369"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "@id": "https://linjianghao.com/LLM4OR.html#lakn",
+                "url": "https://linjianghao.com/LLM4OR.html#lakn",
+                "name": "Infusing Organizational Memory in Marketing Analytics with LLM-Enhanced AutoML",
+                "author": [
+                  {
+                    "@type": "Person",
+                    "name": "Lin Lei"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Chenyu Huang"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Wenzhe Mao"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "Dongdong Ge"
+                  },
+                  {
+                    "@type": "Person",
+                    "name": "P. K. Kannan"
+                  }
+                ],
+                "abstract": "Marketing analytics teams often lose accumulated know-how as people leave, markets change, and prior project knowledge is not systematically reused. This paper introduces LAKN, Large-Model-Powered AutoML with Knowledge-Driven Insights, a methodology that embeds organizational memory into marketing analytics workflows. LAKN combines AutoML with LLM-driven knowledge reuse to recommend context-rich features, modeling choices, and explanations for new prediction and diagnostic tasks. The paper evaluates the approach across real-world engagements, compares it with automated baselines and human analysts, and uses survey evidence to examine time savings, reduced decision variance, interpretability, and economic value.",
+                "keywords": [
+                  "Marketing Analytics",
+                  "Large Language Models",
+                  "Automated Machine Learning",
+                  "Marketing Strategy"
+                ],
+                "isPartOf": {
+                  "@id": "https://linjianghao.com/LLM4OR.html#collection"
+                },
+                "sameAs": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5648891"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  </script>
+  <!-- RESEARCH_JSON_LD_END -->
   <style>
     :root {
       --iic-blue: #3f6dc1;
@@ -729,7 +1294,428 @@
 
   <main id="content">
     <div class="roadmap" id="roadmap-root" data-source="research-works.json">
-      <div class="data-loading">Loading research works...</div>
+      <!-- RESEARCH_WORKS_START -->
+      <details class="stage" id="automation" open>
+        <summary>
+          <span class="stage-number">1</span>
+          <span class="stage-copy">
+            <span class="stage-title">LLM for Optimization Automation</span>
+            <span class="stage-intro">This line of work turns natural-language decision problems into executable optimization formulations through domain training, solver-grounded reasoning, agent workflows, and scalable benchmarks.</span>
+          </span>
+          <span class="caret" aria-hidden="true">&gt;</span>
+        </summary>
+        <div class="stage-body">
+          <details class="work" id="orlm" open>
+            <summary>
+              <span class="work-heading">
+                <h2>ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling</h2>
+                <p class="authors">Chenyu Huang, Zhengyang Tang, Shixi Hu, Ruoqing Jiang, Xin Zheng, Dongdong Ge, Benyou Wang, and Zizhuo Wang.</p>
+                <p class="venue">Published at <em>Operations Research</em>, 2025.</p>
+              </span>
+              <span class="caret" aria-hidden="true">&gt;</span>
+            </summary>
+            <div class="work-body">
+              <div class="field">
+                <div class="field-label">TLDR</div>
+                <p>Trains customizable open-source LLMs for automated optimization modeling and solver-code generation using synthetic OR modeling data and industrial benchmarks.</p>
+              </div>
+              <div class="field">
+                <div class="field-label">Abstract</div>
+                <details class="abstract-toggle">
+                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Optimization modeling is central to applying operations research in real-world decision problems, but it often requires expert knowledge and substantial manual effort. ORLM proposes a practical path for training open-source LLMs to formulate optimization models and generate solver code. The paper introduces OR-Instruct, a semi-automated data synthesis framework for optimization modeling, and IndustryOR, an industrial benchmark for evaluating LLMs on practical OR problems. Experiments show that 7B-scale ORLMs trained on synthesized data substantially improve performance on NL4Opt, MAMO, and IndustryOR, while the paper also studies scaling, reinforcement learning, and human-machine workflows for industrial deployment.</span><span class="abstract-preview-dots">...</span></span></summary>
+                  <p class="abstract-text">Optimization modeling is central to applying operations research in real-world decision problems, but it often requires expert knowledge and substantial manual effort. ORLM proposes a practical path for training open-source LLMs to formulate optimization models and generate solver code. The paper introduces OR-Instruct, a semi-automated data synthesis framework for optimization modeling, and IndustryOR, an industrial benchmark for evaluating LLMs on practical OR problems. Experiments show that 7B-scale ORLMs trained on synthesized data substantially improve performance on NL4Opt, MAMO, and IndustryOR, while the paper also studies scaling, reinforcement learning, and human-machine workflows for industrial deployment.</p>
+                </details>
+              </div>
+              <div class="field">
+                <div class="field-label">Keywords</div>
+                <div class="keywords">
+                  <span class="keyword">Machine Learning and Data Science</span>
+                  <span class="keyword">Automated Optimization Modeling</span>
+                  <span class="keyword">Large Language Models</span>
+                  <span class="keyword">Synthetic Data</span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-label">Links</div>
+                <div class="links">
+                  <a href="https://pubsonline.informs.org/doi/10.1287/opre.2024.1233" target="_blank" rel="noopener">Paper</a>
+                  <a href="https://github.com/Cardinal-Operations/ORLM" target="_blank" rel="noopener">Code</a>
+                  <a href="https://huggingface.co/datasets/CardinalOperations/IndustryOR" target="_blank" rel="noopener">IndustryOR Dataset</a>
+                  <a href="https://huggingface.co/datasets/CardinalOperations/OR-Instruct-Data-3K" target="_blank" rel="noopener">OR-Instruct-Data-3K</a>
+                  <a href="https://huggingface.co/CardinalOperations/ORLM-LLaMA-3-8B" target="_blank" rel="noopener">ORLM-LLaMA-3-8B Model</a>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="work" id="dplm" open>
+            <summary>
+              <span class="work-heading">
+                <h2>Auto-Formulating Dynamic Programming Problems with Large Language Models</h2>
+                <p class="authors">Chenyu Zhou, Jingyuan Yang, Linwei Xin, Yitian Chen, Ziyan He, and Dongdong Ge.</p>
+                <p class="venue">Major revision at <em>M&amp;SOM</em>.</p>
+              </span>
+              <span class="caret" aria-hidden="true">&gt;</span>
+            </summary>
+            <div class="work-body">
+              <div class="field">
+                <div class="field-label">TLDR</div>
+                <p>A 7B specialized model for auto-formulating dynamic programming problems, trained with DualReflect -- a forward-and-backward synthetic data pipeline -- that matches o1/DeepSeek-R1 and surpasses them on hard problems.</p>
+              </div>
+              <div class="field">
+                <div class="field-label">Abstract</div>
+                <details class="abstract-toggle">
+                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Dynamic programming (DP) is a fundamental method in operations research, but formulating DP models has traditionally required expert knowledge of both the problem context and DP techniques. Large Language Models (LLMs) offer the potential to automate this process. However, DP problems pose unique challenges due to their inherently stochastic transitions and the limited availability of training data. These factors make it difficult to directly apply existing LLM-based models or frameworks developed for other optimization problems, such as linear or integer programming. We introduce DP-Bench, the first benchmark covering a wide range of textbook-level DP problems to enable systematic evaluation. We present Dynamic Programming Language Model (DPLM), a 7B-parameter specialized model that achieves performance comparable to state-of-the-art LLMs like OpenAI&#39;s o1 and DeepSeek-R1, and surpasses them on hard problems. Central to DPLM&#39;s effectiveness is DualReflect, our novel synthetic data generation pipeline, designed to scale up training data from a limited set of initial examples. DualReflect combines forward generation for diversity and backward generation for reliability. Our results reveal a key insight: backward generation is favored in low-data regimes for its strong correctness guarantees, while forward generation, though lacking such guarantees, becomes increasingly valuable at scale for introducing diverse formulations. This trade-off highlights the complementary strengths of both approaches and the importance of combining them.</span><span class="abstract-preview-dots">...</span></span></summary>
+                  <p class="abstract-text">Dynamic programming (DP) is a fundamental method in operations research, but formulating DP models has traditionally required expert knowledge of both the problem context and DP techniques. Large Language Models (LLMs) offer the potential to automate this process. However, DP problems pose unique challenges due to their inherently stochastic transitions and the limited availability of training data. These factors make it difficult to directly apply existing LLM-based models or frameworks developed for other optimization problems, such as linear or integer programming. We introduce DP-Bench, the first benchmark covering a wide range of textbook-level DP problems to enable systematic evaluation. We present Dynamic Programming Language Model (DPLM), a 7B-parameter specialized model that achieves performance comparable to state-of-the-art LLMs like OpenAI&#39;s o1 and DeepSeek-R1, and surpasses them on hard problems. Central to DPLM&#39;s effectiveness is DualReflect, our novel synthetic data generation pipeline, designed to scale up training data from a limited set of initial examples. DualReflect combines forward generation for diversity and backward generation for reliability. Our results reveal a key insight: backward generation is favored in low-data regimes for its strong correctness guarantees, while forward generation, though lacking such guarantees, becomes increasingly valuable at scale for introducing diverse formulations. This trade-off highlights the complementary strengths of both approaches and the importance of combining them.</p>
+                </details>
+              </div>
+              <div class="field">
+                <div class="field-label">Keywords</div>
+                <div class="keywords">
+                  <span class="keyword">Dynamic Programming</span>
+                  <span class="keyword">Operations Research</span>
+                  <span class="keyword">Large Language Models</span>
+                  <span class="keyword">Auto-Formulation</span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-label">Links</div>
+                <div class="links">
+                  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5350161" target="_blank" rel="noopener">Paper</a>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="work" id="sirl" open>
+            <summary>
+              <span class="work-heading">
+                <h2>Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling</h2>
+                <p class="authors">Yitian Chen, Jingfan Xia, Siyu Shao, Dongdong Ge, and Yinyu Ye.</p>
+                <p class="venue">Published at <em>NeurIPS</em>, 2025.</p>
+              </span>
+              <span class="caret" aria-hidden="true">&gt;</span>
+            </summary>
+            <div class="work-body">
+              <div class="field">
+                <div class="field-label">TLDR</div>
+                <p>Uses optimization solvers as verifiers to train LLMs with executable, feasible, objective-aware rewards.</p>
+              </div>
+              <div class="field">
+                <div class="field-label">Abstract</div>
+                <details class="abstract-toggle">
+                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Optimization modeling is fundamental to decision-making across diverse domains. Despite progress in automating optimization formulation from natural language descriptions, Large Language Models (LLMs) often struggle to generate formally correct and usable models against hallucinations, posing a challenge for reliable automation. Inspired by the success of Reinforcement Learning (RL) in enhancing Large Reasoning Models, we present Solver-Informed Reinforcement Learning (SIRL), a novel framework that significantly improves the authenticity of LLMs for optimization modeling using Reinforcement Learning with Verifiable Reward by leveraging external optimization solvers as verifiers. These verifiers automatically assess the executable code and the instance-level mathematical model represented by the associated LP file, yielding precise and comprehensive feedback signals -- including syntax, feasibility, and solution quality, serving as direct rewards for the RL process. This automated verification process, particularly from classic optimization solvers, also underpins our instance-enhanced self-consistency method to synthesize high-quality training data. Extensive experiments on diverse public benchmarks demonstrate that SIRL achieves state-of-the-art performance, substantially outperforming existing methods in generating accurate and executable optimization models. Our code is publicly available at https://github.com/Cardinal-Operations/SIRL.</span><span class="abstract-preview-dots">...</span></span></summary>
+                  <p class="abstract-text">Optimization modeling is fundamental to decision-making across diverse domains. Despite progress in automating optimization formulation from natural language descriptions, Large Language Models (LLMs) often struggle to generate formally correct and usable models against hallucinations, posing a challenge for reliable automation. Inspired by the success of Reinforcement Learning (RL) in enhancing Large Reasoning Models, we present Solver-Informed Reinforcement Learning (SIRL), a novel framework that significantly improves the authenticity of LLMs for optimization modeling using Reinforcement Learning with Verifiable Reward by leveraging external optimization solvers as verifiers. These verifiers automatically assess the executable code and the instance-level mathematical model represented by the associated LP file, yielding precise and comprehensive feedback signals -- including syntax, feasibility, and solution quality, serving as direct rewards for the RL process. This automated verification process, particularly from classic optimization solvers, also underpins our instance-enhanced self-consistency method to synthesize high-quality training data. Extensive experiments on diverse public benchmarks demonstrate that SIRL achieves state-of-the-art performance, substantially outperforming existing methods in generating accurate and executable optimization models. Our code is publicly available at https://github.com/Cardinal-Operations/SIRL.</p>
+                </details>
+              </div>
+              <div class="field">
+                <div class="field-label">Keywords</div>
+                <div class="keywords">
+                  <span class="keyword">RLVR</span>
+                  <span class="keyword">Solver Feedback</span>
+                  <span class="keyword">Outcome Reward</span>
+                  <span class="keyword">Reinforcement Learning</span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-label">Links</div>
+                <div class="links">
+                  <a href="https://arxiv.org/abs/2505.11792" target="_blank" rel="noopener">Paper</a>
+                  <a href="https://github.com/Cardinal-Operations/SIRL" target="_blank" rel="noopener">Code</a>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="work" id="steporlm" open>
+            <summary>
+              <span class="work-heading">
+                <h2>StepORLM: A Self-Evolving Framework with Generative Process Supervision for Operations Research Language Models</h2>
+                <p class="authors">Chenyu Zhou, Tianyi Xu, Jianghao Lin, and Dongdong Ge.</p>
+                <p class="venue">Published at <em>ICLR</em>, 2026.</p>
+              </span>
+              <span class="caret" aria-hidden="true">&gt;</span>
+            </summary>
+            <div class="work-body">
+              <div class="field">
+                <div class="field-label">TLDR</div>
+                <p>A self-evolving framework that co-trains a policy LLM and a generative process reward model via dual outcome-and-process feedback, yielding an 8B model that achieves SOTA across six Operations Research benchmarks.</p>
+              </div>
+              <div class="field">
+                <div class="field-label">Abstract</div>
+                <details class="abstract-toggle">
+                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Large Language Models (LLMs) have shown promising capabilities for solving Operations Research (OR) problems. While reinforcement learning serves as a powerful paradigm for LLM training on OR problems, existing works generally face two key limitations. First, outcome reward suffers from the credit assignment problem, where correct final answers can reinforce flawed reasoning. Second, conventional discriminative process supervision is myopic, failing to evaluate the interdependent steps of OR modeling holistically. To this end, we introduce StepORLM, a novel self-evolving framework with generative process supervision. At its core, StepORLM features a co-evolutionary loop where a policy model and a generative process reward model (GenPRM) iteratively improve on each other. This loop is driven by a dual-feedback mechanism: definitive, outcome-based verification from an external solver, and nuanced, holistic process evaluation from the GenPRM. The combined signal is used to align the policy via Weighted Direct Preference Optimization (W-DPO) and simultaneously refine the GenPRM. Our resulting 8B-parameter StepORLM establishes a new state-of-the-art across six benchmarks, significantly outperforming vastly larger generalist models, agentic methods, and specialized baselines. Moreover, the co-evolved GenPRM is able to act as a powerful and universally applicable process verifier, substantially boosting the inference scaling performance of both our own model and other existing LLMs.</span><span class="abstract-preview-dots">...</span></span></summary>
+                  <p class="abstract-text">Large Language Models (LLMs) have shown promising capabilities for solving Operations Research (OR) problems. While reinforcement learning serves as a powerful paradigm for LLM training on OR problems, existing works generally face two key limitations. First, outcome reward suffers from the credit assignment problem, where correct final answers can reinforce flawed reasoning. Second, conventional discriminative process supervision is myopic, failing to evaluate the interdependent steps of OR modeling holistically. To this end, we introduce StepORLM, a novel self-evolving framework with generative process supervision. At its core, StepORLM features a co-evolutionary loop where a policy model and a generative process reward model (GenPRM) iteratively improve on each other. This loop is driven by a dual-feedback mechanism: definitive, outcome-based verification from an external solver, and nuanced, holistic process evaluation from the GenPRM. The combined signal is used to align the policy via Weighted Direct Preference Optimization (W-DPO) and simultaneously refine the GenPRM. Our resulting 8B-parameter StepORLM establishes a new state-of-the-art across six benchmarks, significantly outperforming vastly larger generalist models, agentic methods, and specialized baselines. Moreover, the co-evolved GenPRM is able to act as a powerful and universally applicable process verifier, substantially boosting the inference scaling performance of both our own model and other existing LLMs.</p>
+                </details>
+              </div>
+              <div class="field">
+                <div class="field-label">Keywords</div>
+                <div class="keywords">
+                  <span class="keyword">Operations Research</span>
+                  <span class="keyword">Large Language Models</span>
+                  <span class="keyword">Process Supervision</span>
+                  <span class="keyword">Reinforcement Learning</span>
+                  <span class="keyword">Inference Scaling</span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-label">Links</div>
+                <div class="links">
+                  <a href="https://0xzhouchenyu.github.io/StepORLM/" target="_blank" rel="noopener">Website</a>
+                  <a href="https://arxiv.org/abs/2509.22558" target="_blank" rel="noopener">Paper</a>
+                  <a href="https://github.com/0xzhouchenyu/StepORLM" target="_blank" rel="noopener">Code</a>
+                  <a href="https://huggingface.co/Chenyu-Zhou/StepORLM-Qwen3-8B" target="_blank" rel="noopener">StepORLM-Qwen3-8B</a>
+                  <a href="https://huggingface.co/Chenyu-Zhou/StepORLM-GenPRM-Qwen3-8B" target="_blank" rel="noopener">GenPRM-Qwen3-8B</a>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="work" id="agora-opt" open>
+            <summary>
+              <span class="work-heading">
+                <h2>From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling</h2>
+                <p class="authors">Jianghao Lin, Zi Ling, Chenyu Zhou, Tianyi Xu, Ruoqing Jiang, Zizhuo Wang, and Dongdong Ge.</p>
+                <p class="venue">Submitted to <em>Operations Research</em>.</p>
+              </span>
+              <span class="caret" aria-hidden="true">&gt;</span>
+            </summary>
+            <div class="work-body">
+              <div class="field">
+                <div class="field-label">TLDR</div>
+                <p>Agora-Opt proposes a modular agentic framework that improves LLM-based optimization modeling through decentralized debate and read-write memory: agents cross-check and refine each other&#39;s solver-verified solutions, while memory accumulates reusable experience, leading to stronger and more robust performance across OR benchmarks.</p>
+              </div>
+              <div class="field">
+                <div class="field-label">Abstract</div>
+                <details class="abstract-toggle">
+                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Optimization modeling underpins real-world decision-making in logistics, manufacturing, energy, and public services, but reliably solving such problems from natural-language requirements remains challenging for current large language models (LLMs). In this paper, we propose \emph{Agora-Opt}, a modular agentic framework for optimization modeling that combines decentralized debate with a read-write memory bank. Agora-Opt allows multiple agent teams to independently produce end-to-end solutions and reconcile them through an outcome-grounded debate protocol, while memory stores solver-verified artifacts and past disagreement resolutions to support training-free improvement over time. This design is flexible across both backbones and methods: it reduces base-model lock-in, transfers across different LLM families, and can be layered onto existing pipelines with minimal coupling. Across public benchmarks, Agora-Opt achieves the strongest overall performance among all compared methods, outperforming strong zero-shot LLMs, training-centric approaches, and prior agentic baselines. Further analyses show robust gains across backbone choices and component variants, and demonstrate that decentralized debate offers a structural advantage over centralized selection by enabling agents to refine candidate solutions through interaction and even recover correct formulations when all initial candidates are flawed. These results suggest that reliable optimization modeling benefits from combining collaborative cross-checking with reusable experience, and position Agora-Opt as a practical and extensible foundation for trustworthy optimization modeling assistance. Our code and data are available at https://github.com/CHIANGEL/Agora-Opt.</span><span class="abstract-preview-dots">...</span></span></summary>
+                  <p class="abstract-text">Optimization modeling underpins real-world decision-making in logistics, manufacturing, energy, and public services, but reliably solving such problems from natural-language requirements remains challenging for current large language models (LLMs). In this paper, we propose \emph{Agora-Opt}, a modular agentic framework for optimization modeling that combines decentralized debate with a read-write memory bank. Agora-Opt allows multiple agent teams to independently produce end-to-end solutions and reconcile them through an outcome-grounded debate protocol, while memory stores solver-verified artifacts and past disagreement resolutions to support training-free improvement over time. This design is flexible across both backbones and methods: it reduces base-model lock-in, transfers across different LLM families, and can be layered onto existing pipelines with minimal coupling. Across public benchmarks, Agora-Opt achieves the strongest overall performance among all compared methods, outperforming strong zero-shot LLMs, training-centric approaches, and prior agentic baselines. Further analyses show robust gains across backbone choices and component variants, and demonstrate that decentralized debate offers a structural advantage over centralized selection by enabling agents to refine candidate solutions through interaction and even recover correct formulations when all initial candidates are flawed. These results suggest that reliable optimization modeling benefits from combining collaborative cross-checking with reusable experience, and position Agora-Opt as a practical and extensible foundation for trustworthy optimization modeling assistance. Our code and data are available at https://github.com/CHIANGEL/Agora-Opt.</p>
+                </details>
+              </div>
+              <div class="field">
+                <div class="field-label">Keywords</div>
+                <div class="keywords">
+                  <span class="keyword">Large Language Models</span>
+                  <span class="keyword">Optimization Modeling</span>
+                  <span class="keyword">Agentic Debate</span>
+                  <span class="keyword">Agentic Memory</span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-label">Links</div>
+                <div class="links">
+                  <a href="https://arxiv.org/abs/2604.25847" target="_blank" rel="noopener">Paper</a>
+                  <a href="https://github.com/CHIANGEL/Agora-Opt" target="_blank" rel="noopener">Code</a>
+                  <a href="https://github.com/CHIANGEL/Agora-Opt/tree/main/data/benchmarks" target="_blank" rel="noopener">Dataset</a>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="work" id="lean-llm-opt" open>
+            <summary>
+              <span class="work-heading">
+                <h2>Large-Scale Optimization Model Auto-Formulation: Harnessing LLM Flexibility via Structured Workflow</h2>
+                <p class="authors">Kuo Liang, Yuhang Lu, Jianming Mao, Shuyi Sun, Chunwei Yang, Congcong Zeng, Xiao Jin, Hanzhang Qin, Ruihao Zhu, and Chung-Piaw Teo.</p>
+                <p class="venue">Submitted to <em>Operations Research</em>.</p>
+              </span>
+              <span class="caret" aria-hidden="true">&gt;</span>
+            </summary>
+            <div class="work-body">
+              <div class="field">
+                <div class="field-label">TLDR</div>
+                <p>Orchestrates a flexible multi-agent LLM workflow that combines few-shot reasoning and customized tools to formulate large-scale optimization models and generate solver code end-to-end.</p>
+              </div>
+              <div class="field">
+                <div class="field-label">Abstract</div>
+                <details class="abstract-toggle">
+                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Large-scale optimization is a key backbone of modern business decision-making. However, building these models is often labor-intensive and time-consuming. We address this by proposing LEAN-LLM-OPT, a LightwEight AgeNtic workflow construction framework for LLM-assisted large-scale OPTimization auto-formulation. LEAN-LLM-OPT takes as input a problem description together with associated datasets and orchestrates a team of LLM agents to produce an optimization formulation. Specifically, upon receiving a query, two upstream LLM agents dynamically construct a workflow that specifies, step-by-step, how optimization models for similar problems can be formulated. A downstream LLM agent then follows this workflow to generate the final output. The agentic workflow leverages common modeling practices to structure the modeling process into a sequence of sub-tasks, offloading mechanical data-handling operations to auxiliary tools. This reduces the LLM&#39;s burden in planning and data handling, allowing us to exploit its flexibility to address unstructured components. Extensive simulations show that LEAN-LLM-OPT, instantiated with GPT-4.1 and the open source gpt-oss-20B, achieves strong performance on large-scale optimization modeling tasks and is competitive with state-of-the-art approaches. In addition, in a Singapore Airlines choice-based revenue management use case, LEAN-LLM-OPT demonstrates practical value by achieving leading performance across a range of scenarios. Along the way, we introduce Large-Scale-OR and Air-NRM, the first comprehensive benchmarks for large-scale optimization auto-formulation. The code and data of this work is available at https://github.com/CoraLiang01/lean-llm-opt.</span><span class="abstract-preview-dots">...</span></span></summary>
+                  <p class="abstract-text">Large-scale optimization is a key backbone of modern business decision-making. However, building these models is often labor-intensive and time-consuming. We address this by proposing LEAN-LLM-OPT, a LightwEight AgeNtic workflow construction framework for LLM-assisted large-scale OPTimization auto-formulation. LEAN-LLM-OPT takes as input a problem description together with associated datasets and orchestrates a team of LLM agents to produce an optimization formulation. Specifically, upon receiving a query, two upstream LLM agents dynamically construct a workflow that specifies, step-by-step, how optimization models for similar problems can be formulated. A downstream LLM agent then follows this workflow to generate the final output. The agentic workflow leverages common modeling practices to structure the modeling process into a sequence of sub-tasks, offloading mechanical data-handling operations to auxiliary tools. This reduces the LLM&#39;s burden in planning and data handling, allowing us to exploit its flexibility to address unstructured components. Extensive simulations show that LEAN-LLM-OPT, instantiated with GPT-4.1 and the open source gpt-oss-20B, achieves strong performance on large-scale optimization modeling tasks and is competitive with state-of-the-art approaches. In addition, in a Singapore Airlines choice-based revenue management use case, LEAN-LLM-OPT demonstrates practical value by achieving leading performance across a range of scenarios. Along the way, we introduce Large-Scale-OR and Air-NRM, the first comprehensive benchmarks for large-scale optimization auto-formulation. The code and data of this work is available at https://github.com/CoraLiang01/lean-llm-opt.</p>
+                </details>
+              </div>
+              <div class="field">
+                <div class="field-label">Keywords</div>
+                <div class="keywords">
+                  <span class="keyword">Large Language Models</span>
+                  <span class="keyword">Few-Shot Learning</span>
+                  <span class="keyword">Automated Optimization Modeling</span>
+                  <span class="keyword">Airline Revenue Management</span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-label">Links</div>
+                <div class="links">
+                  <a href="https://arxiv.org/abs/2601.09635" target="_blank" rel="noopener">Paper</a>
+                  <a href="https://github.com/CoraLiang01/lean-llm-opt" target="_blank" rel="noopener">Code</a>
+                  <a href="https://github.com/CoraLiang01/lean-llm-opt/tree/main/Test_Dataset" target="_blank" rel="noopener">Dataset</a>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="work" id="opt-engine" open>
+            <summary>
+              <span class="work-heading">
+                <h2>OPT-Engine: Benchmarking the Limits of LLMs in Optimization Modeling via Complexity Scaling</h2>
+                <p class="authors">Yitian Chen, Cheng Cheng, Yinan Sun, Zi Ling, and Dongdong Ge.</p>
+                <p class="venue">Accepted by <em>ICML</em>, 2026.</p>
+              </span>
+              <span class="caret" aria-hidden="true">&gt;</span>
+            </summary>
+            <div class="work-body">
+              <div class="field">
+                <div class="field-label">TLDR</div>
+                <p>Builds a controllable benchmark engine to diagnose where LLMs fail as optimization tasks scale.</p>
+              </div>
+              <div class="field">
+                <div class="field-label">Abstract</div>
+                <details class="abstract-toggle">
+                  <summary><span class="abstract-preview"><span class="abstract-preview-text">We investigate the capabilities and scalability of Large Language Models (LLMs) in optimization modeling, a domain requiring structured reasoning and precise formulation. To this end, we introduce OPT-ENGINE, an extensible benchmark framework with quantifiable and controllable complexity. OPT-ENGINE spans ten canonical Operations Research problems, systematically scaling from Linear Programming to Mixed-Integer Programming, providing a structured environment to probe the limits of automated problem formulation and solving. Utilizing OPT-Engine, we address three pivotal research questions. First, we examine whether Pure-Text Reasoning (PTR) via classical Chain-of-Thought can efficiently tackle optimization tasks, finding that PTR suffers from a critical robustness gap as task complexity increases. Second, we examine whether integrating external computational tools can mitigate PTR&#39;s arithmetic weaknesses and improve performance. Our results indicate that while such tools help with local calculations, they still fail to adhere to global optimization constraints. Finally, we pinpoint that for the current SOTA paradigm, Solver-integrated Reasoning (SIR), the automated formulation of constraints represents the primary bottleneck. These findings clarify the limitations of current paradigms and provide a structured roadmap for developing next-generation LLMs for optimization modeling. We release our code and data to facilitate future research (https://github.com/Cardinal-Operations/OPTEngine).</span><span class="abstract-preview-dots">...</span></span></summary>
+                  <p class="abstract-text">We investigate the capabilities and scalability of Large Language Models (LLMs) in optimization modeling, a domain requiring structured reasoning and precise formulation. To this end, we introduce OPT-ENGINE, an extensible benchmark framework with quantifiable and controllable complexity. OPT-ENGINE spans ten canonical Operations Research problems, systematically scaling from Linear Programming to Mixed-Integer Programming, providing a structured environment to probe the limits of automated problem formulation and solving. Utilizing OPT-Engine, we address three pivotal research questions. First, we examine whether Pure-Text Reasoning (PTR) via classical Chain-of-Thought can efficiently tackle optimization tasks, finding that PTR suffers from a critical robustness gap as task complexity increases. Second, we examine whether integrating external computational tools can mitigate PTR&#39;s arithmetic weaknesses and improve performance. Our results indicate that while such tools help with local calculations, they still fail to adhere to global optimization constraints. Finally, we pinpoint that for the current SOTA paradigm, Solver-integrated Reasoning (SIR), the automated formulation of constraints represents the primary bottleneck. These findings clarify the limitations of current paradigms and provide a structured roadmap for developing next-generation LLMs for optimization modeling. We release our code and data to facilitate future research (https://github.com/Cardinal-Operations/OPTEngine).</p>
+                </details>
+              </div>
+              <div class="field">
+                <div class="field-label">Keywords</div>
+                <div class="keywords">
+                  <span class="keyword">OPT-Engine</span>
+                  <span class="keyword">Complexity Scaling</span>
+                  <span class="keyword">Constraint Diagnosis</span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-label">Links</div>
+                <div class="links">
+                  <a href="https://arxiv.org/abs/2601.19924" target="_blank" rel="noopener">Paper</a>
+                  <a href="https://github.com/Cardinal-Operations/OPTEngine" target="_blank" rel="noopener">Code</a>
+                  <a href="https://github.com/Cardinal-Operations/OPTEngine/tree/main/test_data" target="_blank" rel="noopener">Dataset</a>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="work" id="or-space" open>
+            <summary>
+              <span class="work-heading">
+                <h2>OR-Space: A Full-Lifecycle Workspace Benchmark for Industrial Optimization Agents</h2>
+                <p class="authors">Chenyu Zhou, Xinyun Lu, Jiangyue Zhao, Jianghao Lin, Dongdong Ge, and Yinyu Ye.</p>
+                <p class="venue">arXiv preprint.</p>
+              </span>
+              <span class="caret" aria-hidden="true">&gt;</span>
+            </summary>
+            <div class="work-body">
+              <div class="field">
+                <div class="field-label">TLDR</div>
+                <p>Introduces a full-lifecycle workspace benchmark that evaluates industrial optimization agents across model construction, model revision, and grounded explanation in persistent multi-artifact environments.</p>
+              </div>
+              <div class="field">
+                <div class="field-label">Abstract</div>
+                <details class="abstract-toggle">
+                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Large language model (LLM) agents are increasingly used to assist with operations research (OR) modeling, yet existing OR-oriented benchmarks often reduce evaluation to one-shot translation from a self-contained problem statement into a mathematical formulation or solver program. Such settings abstract away two characteristics of real industrial OR workflows: persistent multi-artifact workspaces and multi-stage task lifecycles. We introduce OR-Space, a full-lifecycle workspace benchmark for evaluating industrial optimization agents across model construction, model revision, and grounded explanation. Each instance is an executable workspace containing business documents, structured data, optional code artifacts, solver outputs, and task-specific evaluators distributed across interdependent files. OR-Space defines three task modes: Build, where agents construct solver-ready optimization models from heterogeneous artifacts; Revise, where agents modify existing models under changing requirements or solver feedback while preserving valid prior logic; and Explain, where agents answer grounded questions about solutions, constraints, and business implications using evidence spread across workspace artifacts. By combining persistent workspaces with lifecycle-oriented tasks, OR-Space evaluates whether agents can perform reliable optimization work beyond end-to-end text generation. We describe the benchmark design, evaluation protocol, and quality-control pipeline, and position OR-Space as a benchmark for studying the reliability, failure modes, and practical readiness of LLM agents in industrial OR workflows.</span><span class="abstract-preview-dots">...</span></span></summary>
+                  <p class="abstract-text">Large language model (LLM) agents are increasingly used to assist with operations research (OR) modeling, yet existing OR-oriented benchmarks often reduce evaluation to one-shot translation from a self-contained problem statement into a mathematical formulation or solver program. Such settings abstract away two characteristics of real industrial OR workflows: persistent multi-artifact workspaces and multi-stage task lifecycles. We introduce OR-Space, a full-lifecycle workspace benchmark for evaluating industrial optimization agents across model construction, model revision, and grounded explanation. Each instance is an executable workspace containing business documents, structured data, optional code artifacts, solver outputs, and task-specific evaluators distributed across interdependent files. OR-Space defines three task modes: Build, where agents construct solver-ready optimization models from heterogeneous artifacts; Revise, where agents modify existing models under changing requirements or solver feedback while preserving valid prior logic; and Explain, where agents answer grounded questions about solutions, constraints, and business implications using evidence spread across workspace artifacts. By combining persistent workspaces with lifecycle-oriented tasks, OR-Space evaluates whether agents can perform reliable optimization work beyond end-to-end text generation. We describe the benchmark design, evaluation protocol, and quality-control pipeline, and position OR-Space as a benchmark for studying the reliability, failure modes, and practical readiness of LLM agents in industrial OR workflows.</p>
+                </details>
+              </div>
+              <div class="field">
+                <div class="field-label">Keywords</div>
+                <div class="keywords">
+                  <span class="keyword">Operations Research</span>
+                  <span class="keyword">LLM Agents</span>
+                  <span class="keyword">Industrial Optimization</span>
+                  <span class="keyword">Workspace Benchmark</span>
+                  <span class="keyword">Lifecycle Evaluation</span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-label">Links</div>
+                <div class="links">
+                  <a href="https://arxiv.org/abs/2605.28158" target="_blank" rel="noopener">Paper</a>
+                </div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </details>
+      <details class="stage" id="innovation" open>
+        <summary>
+          <span class="stage-number">2</span>
+          <span class="stage-copy">
+            <span class="stage-title">LLM for Optimization Innovation</span>
+            <span class="stage-intro">This line of work uses LLMs not only to formulate known models, but to discover deployable policies and inject organizational memory into analytics workflows.</span>
+          </span>
+          <span class="caret" aria-hidden="true">&gt;</span>
+        </summary>
+        <div class="stage-body">
+          <details class="work" id="invevolve" open>
+            <summary>
+              <span class="work-heading">
+                <h2>InvEvolve: Evolving White-Box Inventory Policies via Large Language Models with Performance Guarantees</h2>
+                <p class="authors">Chenyu Huang, Jianghao Lin, Zhengyang Tang, Bo Jiang, Ruoqing Jiang, Benyou Wang, and Lai Wei.</p>
+                <p class="venue">Working in progress.</p>
+              </span>
+              <span class="caret" aria-hidden="true">&gt;</span>
+            </summary>
+            <div class="work-body">
+              <div class="field">
+                <div class="field-label">TLDR</div>
+                <p>Uses LLM-guided evolutionary search to generate interpretable inventory policies with confidence-interval-based certification and performance guarantees for future deployment.</p>
+              </div>
+              <div class="field">
+                <div class="field-label">Abstract</div>
+                <details class="abstract-toggle">
+                  <summary><span class="abstract-preview"><span class="abstract-preview-text">We study how large language models can be used to generate inventory policies in online settings with non-stationary demand. Our work is motivated by recent advances in LLM-based evolutionary search, such as AlphaEvolve, which demonstrates strong performance on static and highly structured problems such as mathematical discovery, but is not directly suited to dynamic inventory settings with online updates. We propose InvEvolve, an end-to-end inventory policy evolution and inference framework grounded in confidence-interval-based certification. Built on a large language model trained via reinforcement learning, InvEvolve can process demand data together with additional numerical and textual features, and generates white-box inventory policies with statistical safety guarantees for future deployment. We further introduce a unified framework with theoretical guarantees that connects training, inference, and deployment. This allows us to derive a lower bound on the probability that InvEvolve evolves a statistically safe and improved policy, and to characterize the multi-period performance gap relative to the oracle-safe benchmark. Tested on both synthetic data and real-world retail data, InvEvolve outperforms classical inventory policies and deep-learning-based methods. In canonical inventory settings, it generates new policies that outperform existing benchmarks.</span><span class="abstract-preview-dots">...</span></span></summary>
+                  <p class="abstract-text">We study how large language models can be used to generate inventory policies in online settings with non-stationary demand. Our work is motivated by recent advances in LLM-based evolutionary search, such as AlphaEvolve, which demonstrates strong performance on static and highly structured problems such as mathematical discovery, but is not directly suited to dynamic inventory settings with online updates. We propose InvEvolve, an end-to-end inventory policy evolution and inference framework grounded in confidence-interval-based certification. Built on a large language model trained via reinforcement learning, InvEvolve can process demand data together with additional numerical and textual features, and generates white-box inventory policies with statistical safety guarantees for future deployment. We further introduce a unified framework with theoretical guarantees that connects training, inference, and deployment. This allows us to derive a lower bound on the probability that InvEvolve evolves a statistically safe and improved policy, and to characterize the multi-period performance gap relative to the oracle-safe benchmark. Tested on both synthetic data and real-world retail data, InvEvolve outperforms classical inventory policies and deep-learning-based methods. In canonical inventory settings, it generates new policies that outperform existing benchmarks.</p>
+                </details>
+              </div>
+              <div class="field">
+                <div class="field-label">Keywords</div>
+                <div class="keywords">
+                  <span class="keyword">Inventory Management</span>
+                  <span class="keyword">AlphaEvolve</span>
+                  <span class="keyword">Large Language Model</span>
+                  <span class="keyword">Reinforcement Learning</span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-label">Links</div>
+                <div class="links">
+                  <a href="https://arxiv.org/abs/2605.00369" target="_blank" rel="noopener">Paper</a>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="work" id="lakn" open>
+            <summary>
+              <span class="work-heading">
+                <h2>Infusing Organizational Memory in Marketing Analytics with LLM-Enhanced AutoML</h2>
+                <p class="authors">Lin Lei, Chenyu Huang, Wenzhe Mao, Dongdong Ge, and P. K. Kannan.</p>
+                <p class="venue">Submitted to <em>Production and Operations Management</em>.</p>
+              </span>
+              <span class="caret" aria-hidden="true">&gt;</span>
+            </summary>
+            <div class="work-body">
+              <div class="field">
+                <div class="field-label">TLDR</div>
+                <p>Combines LLMs with AutoML to reuse organizational memory from prior marketing analytics projects and improve future modeling workflows.</p>
+              </div>
+              <div class="field">
+                <div class="field-label">Abstract</div>
+                <details class="abstract-toggle">
+                  <summary><span class="abstract-preview"><span class="abstract-preview-text">Marketing analytics teams often lose accumulated know-how as people leave, markets change, and prior project knowledge is not systematically reused. This paper introduces LAKN, Large-Model-Powered AutoML with Knowledge-Driven Insights, a methodology that embeds organizational memory into marketing analytics workflows. LAKN combines AutoML with LLM-driven knowledge reuse to recommend context-rich features, modeling choices, and explanations for new prediction and diagnostic tasks. The paper evaluates the approach across real-world engagements, compares it with automated baselines and human analysts, and uses survey evidence to examine time savings, reduced decision variance, interpretability, and economic value.</span><span class="abstract-preview-dots">...</span></span></summary>
+                  <p class="abstract-text">Marketing analytics teams often lose accumulated know-how as people leave, markets change, and prior project knowledge is not systematically reused. This paper introduces LAKN, Large-Model-Powered AutoML with Knowledge-Driven Insights, a methodology that embeds organizational memory into marketing analytics workflows. LAKN combines AutoML with LLM-driven knowledge reuse to recommend context-rich features, modeling choices, and explanations for new prediction and diagnostic tasks. The paper evaluates the approach across real-world engagements, compares it with automated baselines and human analysts, and uses survey evidence to examine time savings, reduced decision variance, interpretability, and economic value.</p>
+                </details>
+              </div>
+              <div class="field">
+                <div class="field-label">Keywords</div>
+                <div class="keywords">
+                  <span class="keyword">Marketing Analytics</span>
+                  <span class="keyword">Large Language Models</span>
+                  <span class="keyword">Automated Machine Learning</span>
+                  <span class="keyword">Marketing Strategy</span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-label">Links</div>
+                <div class="links">
+                  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5648891" target="_blank" rel="noopener">Paper</a>
+                </div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </details>
+    <!-- RESEARCH_WORKS_END -->
     </div>
 
     <section class="related" id="links">
@@ -760,129 +1746,6 @@
     </div>
   </footer>
 
-  <script>
-    const roadmapRoot = document.getElementById("roadmap-root");
-
-    function escapeHtml(value) {
-      return String(value ?? "")
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#39;");
-    }
-
-    function joinAuthors(authors) {
-      if (!Array.isArray(authors) || authors.length === 0) return "";
-      if (authors.length === 1) return `${authors[0]}.`;
-      if (authors.length === 2) return `${authors[0]} and ${authors[1]}.`;
-      return `${authors.slice(0, -1).join(", ")}, and ${authors.at(-1)}.`;
-    }
-
-    function renderStatus(status) {
-      if (!status) return "";
-      if (status.text) return escapeHtml(status.text);
-      return `${escapeHtml(status.prefix)} <em>${escapeHtml(status.emphasis)}</em>${escapeHtml(status.suffix)}`;
-    }
-
-    function renderField(label, html) {
-      return [
-        '<div class="field">',
-        `<div class="field-label">${escapeHtml(label)}</div>`,
-        html,
-        "</div>"
-      ].join("");
-    }
-
-    function renderLinks(links) {
-      return [
-        '<div class="links">',
-        ...(links || []).map((link) => (
-          `<a href="${escapeHtml(link.url)}" target="_blank" rel="noopener">${escapeHtml(link.label)}</a>`
-        )),
-        "</div>"
-      ].join("");
-    }
-
-    function renderKeywords(keywords) {
-      return [
-        '<div class="keywords">',
-        ...(keywords || []).map((keyword) => `<span class="keyword">${escapeHtml(keyword)}</span>`),
-        "</div>"
-      ].join("");
-    }
-
-    function renderAbstract(abstract) {
-      const safeAbstract = escapeHtml(abstract);
-      return [
-        '<details class="abstract-toggle">',
-        '<summary><span class="abstract-preview"><span class="abstract-preview-text">',
-        safeAbstract,
-        '</span><span class="abstract-preview-dots">...</span></span></summary>',
-        `<p class="abstract-text">${safeAbstract}</p>`,
-        "</details>"
-      ].join("");
-    }
-
-    function renderWork(work) {
-      return [
-        `<details class="work" id="${escapeHtml(work.id)}" open>`,
-        "<summary>",
-        '<span class="work-heading">',
-        `<h2>${escapeHtml(work.title)}</h2>`,
-        `<p class="authors">${escapeHtml(joinAuthors(work.authors))}</p>`,
-        `<p class="venue">${renderStatus(work.status)}</p>`,
-        "</span>",
-        '<span class="caret" aria-hidden="true">&gt;</span>',
-        "</summary>",
-        '<div class="work-body">',
-        renderField("TLDR", `<p>${escapeHtml(work.tldr)}</p>`),
-        renderField("Abstract", renderAbstract(work.abstract)),
-        renderField("Keywords", renderKeywords(work.keywords)),
-        renderField("Links", renderLinks(work.links)),
-        "</div>",
-        "</details>"
-      ].join("");
-    }
-
-    function renderStage(stage) {
-      return [
-        `<details class="stage" id="${escapeHtml(stage.id)}" open>`,
-        "<summary>",
-        `<span class="stage-number">${escapeHtml(stage.number)}</span>`,
-        '<span class="stage-copy">',
-        `<span class="stage-title">${escapeHtml(stage.title)}</span>`,
-        `<span class="stage-intro">${escapeHtml(stage.intro)}</span>`,
-        "</span>",
-        '<span class="caret" aria-hidden="true">&gt;</span>',
-        "</summary>",
-        '<div class="stage-body">',
-        ...(stage.works || []).map(renderWork),
-        "</div>",
-        "</details>"
-      ].join("");
-    }
-
-    async function loadResearchWorks() {
-      try {
-        const response = await fetch(roadmapRoot.dataset.source, { cache: "no-store" });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const data = await response.json();
-        roadmapRoot.innerHTML = (data.stages || []).map(renderStage).join("");
-      } catch (error) {
-        roadmapRoot.innerHTML = [
-          '<div class="data-error">',
-          "<strong>Research data could not be loaded.</strong>",
-          "<div>This page now reads paper information from <code>research-works.json</code>. ",
-          "If you are opening the HTML with <code>file://</code>, run it through a local static server before previewing.</div>",
-          "</div>"
-        ].join("");
-        console.error(error);
-      }
-    }
-
-    loadResearchWorks();
-  </script>
   <div style="display: none;" aria-hidden="true">
     <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=aa7-OXuSi-2g6O6X2yQcCJG43SkDXoN6gZvP9GqspOA&cl=ffffff&w=a"></script>
     <script type="text/javascript" id="mapmyvisitors-site" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=T1502xN2zuu7U9-PELf3xFqKWs_TbsE9A2147LwGMlo"></script>
