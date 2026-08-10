@@ -4,7 +4,7 @@
 Usage:
   python scripts/build_perfusion_poster.py \
     --paper /path/to/perfusion.pdf \
-    --output output/pdf/perfusion-kdd2026-poster.pdf
+    --output perfusion.pdf
 """
 
 from __future__ import annotations
@@ -572,7 +572,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output",
         type=Path,
-        default=ROOT / "output" / "pdf" / "perfusion-kdd2026-poster.pdf",
+        default=ROOT / "perfusion.pdf",
     )
     return parser.parse_args()
 
